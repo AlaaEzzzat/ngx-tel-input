@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+.tel-dropdown,
+.tel-input {
+  border: none !important;
+  border-radius: 0 6px 6px 0 !important;
+}
+.tel-dropdown {
+  .p-dropdown-items-wrapper {
+    max-width: 296px;
+  }
+  .p-dropdown-trigger {
+    width: 1.5rem !important;
+    justify-content: start !important;
+  }
+}
+.tel-container {
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  width: fit-content;
+  *:focus,
+  *:hover,
+  .p-dropdown:not(.p-disabled).p-focus {
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
+.tel-container:focus {
+  box-shadow: 0 0 0 0.2rem #bfdbfe;
+}
