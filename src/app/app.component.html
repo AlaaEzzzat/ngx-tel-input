@@ -1,42 +1,61 @@
-<form class="p-5">
+<form #myForm="ngForm" class="p-5">
   <section class="tel-container">
-    <p-dropdown
-      [options]="countries"
-      [(ngModel)]="selectedCountry"
-      (onChange)="chageActiveDialCode($event)"
-      [optionLabel]="optionLabel"
-      [name]="name"
-      [placeholder]="placeholder"
-      [filter]="true"
-      filterBy="name"
-      [styleClass]="'tel-dropdown ' + styleClass"
-    >
-      <ng-template pTemplate="selectedItem">
-        <div class="d-flex align-items-center gap-2" *ngIf="selectedCountry">
-          <div>
-            <span class="fi fi-{{ selectedCountry.code }}"></span>&nbsp;
-            {{ selectedCountry.dial_code }}
-          </div>
-        </div>
-      </ng-template>
-      <ng-template let-country pTemplate="item">
-        <div class="d-flex align-items-center gap-2">
-          <div>
-            <span class="fi fi-{{ country.code }}"></span> &nbsp;
-            {{ country.name }} &nbsp; {{ country.dial_code }}
-          </div>
-        </div>
-      </ng-template>
-    </p-dropdown>
-    <input
-      [pattern]="selectedCountry.pattern"
-      class="tel-input"
-      pInputText
-      pKeyFilter="int"
-      [placeholder]="selectedCountry.placeholder"
-      [(ngModel)]="phoneNumber"
-      name="phoneNumber"
-    />
+    <div class="row">
+      <div class="col-4">
+        <p-dropdown
+          [options]="countries"
+          [(ngModel)]="selectedCountry"
+          (onChange)="chageActiveDialCode($event)"
+          [optionLabel]="optionLabel"
+          [name]="name"
+          [placeholder]="placeholder"
+          [filter]="true"
+          filterBy="name"
+          [styleClass]="'tel-dropdown ' + styleClass"
+        >
+          <ng-template pTemplate="selectedItem">
+            <div
+              class="d-flex align-items-center gap-2"
+              *ngIf="selectedCountry"
+            >
+              <div>
+                <span class="fi fi-{{ selectedCountry.code }}"></span>&nbsp;
+                {{ selectedCountry.dial_code }}
+              </div>
+            </div>
+          </ng-template>
+          <ng-template let-country pTemplate="item">
+            <div class="d-flex align-items-center gap-2">
+              <div>
+                <span class="fi fi-{{ country.code }}"></span> &nbsp;
+                {{ country.name }} &nbsp; {{ country.dial_code }}
+              </div>
+            </div>
+          </ng-template>
+        </p-dropdown>
+      </div>
+      <div class="col-8">
+        <input
+          [pattern]="selectedCountry.pattern"
+          class="tel-input"
+          pInputText
+          pKeyFilter="int"
+          [placeholder]="selectedCountry.placeholder"
+          [(ngModel)]="phoneNumber"
+          name="phoneNumber"
+        />
+      </div>
+    </div>
   </section>
+  <div
+    *ngIf="
+      myForm.controls['phoneNumber'].invalid &&
+      (myForm.controls['phoneNumber'].dirty ||
+        myForm.controls['phoneNumber'].touched)
+    "
+    class="text-danger"
+  >
+    invalid phone number
+  </div>
   <button (click)="print()" class="mt-4 d-block btn btn-primary">Add</button>
 </form>
