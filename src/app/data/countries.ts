@@ -52,7 +52,7 @@ export const Countries = [
     flag: '🇦🇴',
     code: 'ao',
     dial_code: '+244',
-    pattern: '',
+    pattern: '(^\\d{3} \\d{3} \\d{3}$|^\\d{9}$)',
     placeholder: '',
   },
   {
@@ -60,7 +60,7 @@ export const Countries = [
     flag: '🇦🇮',
     code: 'ai',
     dial_code: '+1264',
-    pattern: '',
+    pattern: '(^\\d{3} \\d{4}$|\\d{3}-\\d{4}$| ^\\d{11}$) ',
     placeholder: '',
   },
   {
@@ -76,7 +76,7 @@ export const Countries = [
     flag: '🇦🇬',
     code: 'ag',
     dial_code: '+1268',
-    pattern: '',
+    pattern: '(^\\d{3}-\\d{4}$|^\\d{3} \\d{4}$|^\\d{7})',
     placeholder: '',
   },
   {
@@ -508,7 +508,7 @@ export const Countries = [
     flag: '🇪🇬',
     code: 'eg',
     dial_code: '+20',
-    pattern: '^1\\d{9}$',
+    pattern: '(^1\\d{9}$|^\\d{3} \\d{4} \\d{3}$)',
     placeholder: '(###)###-###',
   },
   {
