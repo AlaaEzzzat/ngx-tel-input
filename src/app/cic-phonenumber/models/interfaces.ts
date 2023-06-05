@@ -7,4 +7,5 @@ export interface Country {
   dial_code: string;
   pattern: RegExp;
   placeholder: string;
+  id:number
 }
