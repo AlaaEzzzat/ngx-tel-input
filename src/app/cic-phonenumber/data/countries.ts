@@ -1,4 +1,6 @@
-export const Countries = [
+import { Country, CountryCode } from '../models';
+
+export const Countries: Array<Country> = [
   {
     name: 'Afghanistan',
     flag: '🇦🇫',
@@ -120,7 +122,7 @@ export const Countries = [
   {
     name: 'Australia',
     flag: '🇦🇺',
-    code: 'au',
+    code: CountryCode.Australia,
     dial_code: '+61',
     pattern: /^(?:\+61|61)?[-\s]?\d{3}[-\s]?\d{3}[-\s]?\d{3,4}$/,
     placeholder: '123 456 789',
@@ -140,17 +142,27 @@ export const Countries = [
     flag: '🇦🇿',
     code: 'az',
     dial_code: '+994',
+<<<<<<< HEAD:src/app/data/countries.ts
     pattern:
       /^(?:\+994|994)?[-\s]*(?:12|50|51|55|60|70|77)[-,\s]*\d{3}[-,\s]*\d{2}[-,\s]*\d{2}$/,
     placeholder: '55 123 45 67',
     id: 16,
+=======
+    pattern: / /,
+    placeholder: '',
+>>>>>>> 3bc8cfe39716643d5573c782a6c7cd55840d91d9:src/app/cic-phonenumber/data/countries.ts
   },
   {
     name: 'Bahamas',
     flag: '🇧🇸',
     code: 'bs',
+<<<<<<< HEAD:src/app/data/countries.ts
     dial_code: '+1-242',
     pattern: '',
+=======
+    dial_code: '+1242',
+    pattern: / /,
+>>>>>>> 3bc8cfe39716643d5573c782a6c7cd55840d91d9:src/app/cic-phonenumber/data/countries.ts
     placeholder: '',
     id: 17,
   },
@@ -159,7 +171,11 @@ export const Countries = [
     flag: '🇧🇭',
     code: 'bh',
     dial_code: '+973',
+<<<<<<< HEAD:src/app/data/countries.ts
     pattern: '',
+=======
+    pattern: /^5\\d{8}$/,
+>>>>>>> 3bc8cfe39716643d5573c782a6c7cd55840d91d9:src/app/cic-phonenumber/data/countries.ts
     placeholder: '',
     id: 18,
   },
@@ -168,26 +184,37 @@ export const Countries = [
     flag: '🇧🇩',
     code: 'bd',
     dial_code: '+880',
+<<<<<<< HEAD:src/app/data/countries.ts
     pattern: /^(?:\+880|880)?[-\s]?(?:\d{2}|\d{4})[-\s]?\d{6,7}$/,
     placeholder: '12 1234567',
     id: 19,
+=======
+    pattern: /^9\\d{8}$/,
+    placeholder: '',
+>>>>>>> 3bc8cfe39716643d5573c782a6c7cd55840d91d9:src/app/cic-phonenumber/data/countries.ts
   },
   {
     name: 'Barbados',
     flag: '🇧🇧',
     code: 'bb',
+<<<<<<< HEAD:src/app/data/countries.ts
     dial_code: '+1-246',
     pattern:
       /^(?:\+1-246|001-246)?[-\s]?(?:2[3467]|4(?:2|3|6)|5\d|62|8\d)[-\s]?\d{4}$/,
     placeholder: '23 1234',
     id: 20,
+=======
+    dial_code: '+1246',
+    pattern: / /,
+    placeholder: '',
+>>>>>>> 3bc8cfe39716643d5573c782a6c7cd55840d91d9:src/app/cic-phonenumber/data/countries.ts
   },
   {
     name: 'Belarus',
     flag: '🇧🇾',
     code: 'by',
     dial_code: '+375',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 21,
   },
@@ -196,17 +223,22 @@ export const Countries = [
     flag: '🇧🇪',
     code: 'be',
     dial_code: '+32',
+<<<<<<< HEAD:src/app/data/countries.ts
     placeholder: '468 79 97 97',
     pattern:
       /^(?:\+32|0)?[-\s]?(?:4[56789]{2}|5[01234589]{2}|[67]\d{1}|9[0-8]{2})[-\s]?\d{2}[-\s]?\d{2}[-\s]?\d{2}$/,
     id: 22,
+=======
+    pattern: / /,
+    placeholder: '',
+>>>>>>> 3bc8cfe39716643d5573c782a6c7cd55840d91d9:src/app/cic-phonenumber/data/countries.ts
   },
   {
     name: 'Belize',
     flag: '🇧🇿',
     code: 'bz',
     dial_code: '+501',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 23,
   },
@@ -215,7 +247,7 @@ export const Countries = [
     flag: '🇧🇯',
     code: 'bj',
     dial_code: '+229',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 24,
   },
@@ -224,7 +256,7 @@ export const Countries = [
     flag: '🇧🇲',
     code: 'bm',
     dial_code: '+1441',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 25,
   },
@@ -233,7 +265,11 @@ export const Countries = [
     flag: '🇧🇹',
     code: 'bt',
     dial_code: '+975',
+<<<<<<< HEAD:src/app/data/countries.ts
     pattern: /^9\d{8}$/,
+=======
+    pattern: /^9\\d{8}$/,
+>>>>>>> 3bc8cfe39716643d5573c782a6c7cd55840d91d9:src/app/cic-phonenumber/data/countries.ts
     placeholder: '',
     id: 26,
   },
@@ -242,7 +278,7 @@ export const Countries = [
     flag: '🇧🇴',
     code: 'bo',
     dial_code: '+591',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 27,
   },
@@ -251,7 +287,7 @@ export const Countries = [
     flag: '🇧🇦',
     code: 'ba',
     dial_code: '+387',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 28,
   },
@@ -260,7 +296,7 @@ export const Countries = [
     flag: '🇧🇼',
     code: 'bw',
     dial_code: '+267',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 29,
   },
@@ -269,7 +305,7 @@ export const Countries = [
     flag: '🇧🇻',
     code: 'bv',
     dial_code: '+47',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 30,
   },
@@ -278,17 +314,22 @@ export const Countries = [
     flag: '🇧🇷',
     code: 'br',
     dial_code: '+55',
+<<<<<<< HEAD:src/app/data/countries.ts
     pattern:
       /^(?:\+55|55)?[-\s]?([(]?[0]?[1-9]{2}[)]?)?[-\s]?(9)?[-\s]?\d{4}[-\s]?\d{4}$/,
     placeholder: '12 9 1234 5678',
     id: 31,
+=======
+    pattern: /^\\d{10}$/,
+    placeholder: '',
+>>>>>>> 3bc8cfe39716643d5573c782a6c7cd55840d91d9:src/app/cic-phonenumber/data/countries.ts
   },
   {
     name: 'British Indian Ocean Territory',
     flag: '🇮🇴',
     code: 'io',
     dial_code: '+246',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 32,
   },
@@ -297,7 +338,7 @@ export const Countries = [
     flag: '🇧🇳',
     code: 'bn',
     dial_code: '+673',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 33,
   },
@@ -306,17 +347,22 @@ export const Countries = [
     flag: '🇧🇬',
     code: 'bg',
     dial_code: '+359',
+<<<<<<< HEAD:src/app/data/countries.ts
     pattern:
       /^(?:\+359|359)?[-\s]?8(\d{2}[-\s]?\d{3}[-\s]?\d{3}|[789][-\s]?\d{3}[-\s]?\d{4})$/,
     placeholder: '88 505 6784',
     id: 34,
+=======
+    pattern: / /,
+    placeholder: '',
+>>>>>>> 3bc8cfe39716643d5573c782a6c7cd55840d91d9:src/app/cic-phonenumber/data/countries.ts
   },
   {
     name: 'Burkina Faso',
     flag: '🇧🇫',
     code: 'bf',
     dial_code: '+226',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 35,
   },
@@ -325,7 +371,7 @@ export const Countries = [
     flag: '🇧🇮',
     code: 'bi',
     dial_code: '+257',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 36,
   },
@@ -334,7 +380,7 @@ export const Countries = [
     flag: '🇰🇭',
     code: 'kh',
     dial_code: '+855',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 37,
   },
@@ -343,7 +389,7 @@ export const Countries = [
     flag: '🇨🇲',
     code: 'cm',
     dial_code: '+237',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 38,
   },
@@ -352,16 +398,21 @@ export const Countries = [
     flag: '🇨🇦',
     code: 'ca',
     dial_code: '+1',
+<<<<<<< HEAD:src/app/data/countries.ts
     pattern: /^(?:\+1|001)?[-\s]?[2-9][0-9]{2}[-\s]?\d{3}[-\s]?\d{4}$/,
     placeholder: '236 487 4943',
     id: 39,
+=======
+    pattern: / /,
+    placeholder: '',
+>>>>>>> 3bc8cfe39716643d5573c782a6c7cd55840d91d9:src/app/cic-phonenumber/data/countries.ts
   },
   {
     name: 'Cape Verde',
     flag: '🇨🇻',
     code: 'cv',
     dial_code: '+238',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 40,
   },
@@ -370,7 +421,7 @@ export const Countries = [
     flag: '🇰🇾',
     code: 'ky',
     dial_code: '+345',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 41,
   },
@@ -379,7 +430,7 @@ export const Countries = [
     flag: '🇨🇫',
     code: 'cf',
     dial_code: '+236',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 42,
   },
@@ -388,7 +439,7 @@ export const Countries = [
     flag: '🇹🇩',
     code: 'td',
     dial_code: '+235',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 43,
   },
@@ -397,27 +448,37 @@ export const Countries = [
     flag: '🇨🇱',
     code: 'cl',
     dial_code: '+56',
+<<<<<<< HEAD:src/app/data/countries.ts
     pattern:
       /^(?:\+?56|0)?[-\s]?(?:2|3[2-9]|4[1-8]|5[1-9]|6[1-9]|7[1-7]|9[1-9])?[-\s]?\d{7}$/,
     placeholder: '424 3269',
     id: 44,
+=======
+    pattern: / /,
+    placeholder: '',
+>>>>>>> 3bc8cfe39716643d5573c782a6c7cd55840d91d9:src/app/cic-phonenumber/data/countries.ts
   },
   {
     name: 'China',
     flag: '🇨🇳',
     code: 'cn',
     dial_code: '+86',
+<<<<<<< HEAD:src/app/data/countries.ts
     pattern:
       /^(?:\+86|0086)?[-\s]?1[3456789][-\s]?\d{3}[-\s]?\d{3}[-\s]?\d{3}$/,
     placeholder: '13 123 456 789',
     id: 45,
+=======
+    pattern: /^\\d{11}$/,
+    placeholder: '',
+>>>>>>> 3bc8cfe39716643d5573c782a6c7cd55840d91d9:src/app/cic-phonenumber/data/countries.ts
   },
   {
     name: 'Christmas Island',
     flag: '🇨🇽',
     code: 'cx',
     dial_code: '+61',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 46,
   },
@@ -426,7 +487,7 @@ export const Countries = [
     flag: '🇨🇨',
     code: 'cc',
     dial_code: '+61',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 47,
   },
@@ -435,7 +496,11 @@ export const Countries = [
     flag: '🇨🇴',
     code: 'co',
     dial_code: '+57',
+<<<<<<< HEAD:src/app/data/countries.ts
     pattern: /^3\d{9}$/,
+=======
+    pattern: /^3\\d{9}$/,
+>>>>>>> 3bc8cfe39716643d5573c782a6c7cd55840d91d9:src/app/cic-phonenumber/data/countries.ts
     placeholder: '',
     id: 48,
   },
@@ -444,7 +509,7 @@ export const Countries = [
     flag: '🇰🇲',
     code: 'km',
     dial_code: '+269',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 49,
   },
@@ -453,7 +518,7 @@ export const Countries = [
     flag: '🇨🇬',
     code: 'cg',
     dial_code: '+242',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 50,
   },
@@ -462,7 +527,7 @@ export const Countries = [
     flag: '🇨🇩',
     code: 'cd',
     dial_code: '+243',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 51,
   },
@@ -471,7 +536,7 @@ export const Countries = [
     flag: '🇨🇰',
     code: 'ck',
     dial_code: '+682',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 52,
   },
@@ -480,7 +545,7 @@ export const Countries = [
     flag: '🇨🇷',
     code: 'cr',
     dial_code: '+506',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 53,
   },
@@ -489,7 +554,7 @@ export const Countries = [
     flag: '🇨🇮',
     code: 'ci',
     dial_code: '+225',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 54,
   },
@@ -498,17 +563,22 @@ export const Countries = [
     flag: '🇭🇷',
     code: 'hr',
     dial_code: '+385',
+<<<<<<< HEAD:src/app/data/countries.ts
     pattern:
       /^(?:\+385|385)?[-\s]?(?:\d{2}|\d{4})[-\s]?\d{1,2}[-\s]?\d{3}[-\s]?\d{3,4}$/,
     placeholder: '123 456 789',
     id: 55,
+=======
+    pattern: / /,
+    placeholder: '',
+>>>>>>> 3bc8cfe39716643d5573c782a6c7cd55840d91d9:src/app/cic-phonenumber/data/countries.ts
   },
   {
     name: 'Cuba',
     flag: '🇨🇺',
     code: 'cu',
     dial_code: '+53',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 56,
   },
@@ -517,7 +587,11 @@ export const Countries = [
     flag: '🇨🇾',
     code: 'cy',
     dial_code: '+357',
+<<<<<<< HEAD:src/app/data/countries.ts
     pattern: /^6\d{8}$/,
+=======
+    pattern: /^6\\d{8}$/,
+>>>>>>> 3bc8cfe39716643d5573c782a6c7cd55840d91d9:src/app/cic-phonenumber/data/countries.ts
     placeholder: '',
     id: 57,
   },
@@ -526,9 +600,14 @@ export const Countries = [
     flag: '🇨🇿',
     code: 'cz',
     dial_code: '+420',
+<<<<<<< HEAD:src/app/data/countries.ts
     pattern: /^(?:\+420|420)?[-\s]?\d{3}[-\s]?\d{3}[-\s]?\d{3}$/,
     placeholder: '123 456 789',
     id: 58,
+=======
+    pattern: / /,
+    placeholder: '',
+>>>>>>> 3bc8cfe39716643d5573c782a6c7cd55840d91d9:src/app/cic-phonenumber/data/countries.ts
   },
   {
     name: 'Denmark',
@@ -579,11 +658,16 @@ export const Countries = [
   {
     name: 'Egypt',
     flag: '🇪🇬',
-    code: 'eg',
+    code: CountryCode.Egypt,
     dial_code: '+20',
+<<<<<<< HEAD:src/app/data/countries.ts
     pattern: /^(?:\+20|20)?[-\s]?1[0125][-\s]?\d{4}[-\s]?\d{4}$/,
     placeholder: '10 1234 5678',
     id: 64,
+=======
+    pattern: /(^1\\d{9}$|^\\d{3} \\d{4} \\d{3}$)/,
+    placeholder: '(###)###-###',
+>>>>>>> 3bc8cfe39716643d5573c782a6c7cd55840d91d9:src/app/cic-phonenumber/data/countries.ts
   },
   {
     name: 'El Salvador',
