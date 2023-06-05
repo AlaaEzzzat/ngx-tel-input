@@ -1435,7 +1435,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Niger',
     flag: '🇳🇪',
-    code: CountryCode.Egypt,
+    code: CountryCode.Niger,
     dial_code: '+227',
     pattern: / /,
     placeholder: '',
@@ -1444,7 +1444,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Nigeria',
     flag: '🇳🇬',
-    code: CountryCode.Egypt,
+    code: CountryCode.Nigeria,
     dial_code: '+234',
     pattern: / /,
     placeholder: '',
@@ -1453,7 +1453,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Niue',
     flag: '🇳🇺',
-    code: CountryCode.Egypt,
+    code: CountryCode.Niue,
     dial_code: '+683',
     pattern: / /,
     placeholder: '',
@@ -1462,7 +1462,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Norfolk Island',
     flag: '🇳🇫',
-    code: CountryCode.Egypt,
+    code: CountryCode.NorfolkIsland,
     dial_code: '+672',
     pattern: / /,
     placeholder: '',
@@ -1471,7 +1471,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Northern Mariana Islands',
     flag: '🇲🇵',
-    code: CountryCode.Egypt,
+    code: CountryCode.NorthernMarianaIslands,
     dial_code: '+1670',
     pattern: / /,
     placeholder: '',
@@ -1480,7 +1480,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Norway',
     flag: '🇳🇴',
-    code: CountryCode.Egypt,
+    code: CountryCode.Norway,
     dial_code: '+47',
     pattern: / /,
     placeholder: '',
@@ -1489,7 +1489,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Oman',
     flag: '🇴🇲',
-    code: CountryCode.Egypt,
+    code: CountryCode.Oman,
     dial_code: '+968',
     pattern:/ /,
     placeholder: '',
@@ -1498,7 +1498,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Pakistan',
     flag: '🇵🇰',
-    code: CountryCode.Egypt,
+    code: CountryCode.Pakistan,
     dial_code: '+92',
     pattern: / /,
     placeholder: '',
@@ -1507,7 +1507,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Palau',
     flag: '🇵🇼',
-    code: CountryCode.Egypt,
+    code: CountryCode.Palau,
     dial_code: '+680',
     pattern:/ /,
     placeholder: '',
@@ -1516,7 +1516,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Palestinian Territory, Occupied',
     flag: '🇵🇸',
-    code: CountryCode.Egypt,
+    code: CountryCode.PalestinianTerritoryOccupied,
     dial_code: '+970',
     pattern: / /,
     placeholder: '',
@@ -1525,7 +1525,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Panama',
     flag: '🇵🇦',
-    code: CountryCode.Egypt,
+    code: CountryCode.Panama,
     dial_code: '+507',
     pattern: / /,
     placeholder: '',
@@ -1534,7 +1534,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Papua New Guinea',
     flag: '🇵🇬',
-    code: CountryCode.Egypt,
+    code: CountryCode.PapuaNewGuinea,
     dial_code: '+675',
     pattern: / /,
     placeholder: '',
@@ -1543,7 +1543,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Paraguay',
     flag: '🇵🇾',
-    code: CountryCode.Egypt,
+    code: CountryCode.Paraguay,
     dial_code: '+595',
     pattern: / /,
     placeholder: '',
@@ -1552,7 +1552,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Peru',
     flag: '🇵🇪',
-    code: CountryCode.Egypt,
+    code: CountryCode.Peru,
     dial_code: '+51',
     pattern: / /,
     placeholder: '',
@@ -1561,7 +1561,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Philippines',
     flag: '🇵🇭',
-    code: CountryCode.Egypt,
+    code: CountryCode.Philippines,
     dial_code: '+63',
     pattern: / /,
     placeholder: '',
@@ -1570,7 +1570,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Pitcairn',
     flag: '🇵🇳',
-    code: CountryCode.Egypt,
+    code: CountryCode.Pitcairn,
     dial_code: '+64',
     pattern: / /,
     placeholder: '',
@@ -1579,7 +1579,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Poland',
     flag: '🇵🇱',
-    code: CountryCode.Egypt,
+    code: CountryCode.Poland,
     dial_code: '+48',
     pattern: / /,
     placeholder: '',
@@ -1588,7 +1588,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Portugal',
     flag: '🇵🇹',
-    code: CountryCode.Egypt,
+    code: CountryCode.Portugal,
     dial_code: '+351',
     pattern: / /,
     placeholder: '',
@@ -1597,7 +1597,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Puerto Rico',
     flag: '🇵🇷',
-    code: CountryCode.Egypt,
+    code: CountryCode.PuertoRico,
     dial_code: '+1939',
     pattern: / /,
     placeholder: '',
@@ -1606,7 +1606,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Qatar',
     flag: '🇶🇦',
-    code: CountryCode.Egypt,
+    code: CountryCode.Qatar,
     dial_code: '+974',
     pattern: / /,
     placeholder: '',
@@ -1615,16 +1615,16 @@ export const Countries: Array<Country> = [
   {
     name: 'Romania',
     flag: '🇷🇴',
-    code: CountryCode.Egypt,
+    code: CountryCode.Romania,
     dial_code: '+40',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
     id: 180,
   },
   {
     name: 'Russia',
     flag: '🇷🇺',
-    code: CountryCode.Egypt,
+    code: CountryCode.Russia,
     dial_code: '+7',
     pattern: / /,
     placeholder: '',
@@ -1633,7 +1633,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Rwanda',
     flag: '🇷🇼',
-    code: CountryCode.Egypt,
+    code: CountryCode.Rwanda,
     dial_code: '+250',
     pattern: / /,
     placeholder: '',
@@ -1642,7 +1642,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Reunion',
     flag: '🇷🇪',
-    code: CountryCode.Egypt,
+    code: CountryCode.Reunion,
     dial_code: '+262',
     pattern: / /,
     placeholder: '',
@@ -1651,7 +1651,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Saint Barthelemy',
     flag: '🇧🇱',
-    code: CountryCode.Egypt,
+    code: CountryCode.SaintBarthelemy,
     dial_code: '+590',
     pattern: / /,
     placeholder: '',
@@ -1660,7 +1660,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Saint Helena, Ascension and Tristan Da Cunha',
     flag: '🇸🇭',
-    code: CountryCode.Egypt,
+    code: CountryCode.SaintHelenaAscensionAndTristanDaCunha,
     dial_code: '+290',
     pattern: / /,
     placeholder: '',
@@ -1669,7 +1669,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Saint Kitts and Nevis',
     flag: '🇰🇳',
-    code: CountryCode.Egypt,
+    code: CountryCode.SaintKittsAndNevis,
     dial_code: '+1869',
     pattern: / /,
     placeholder: '',
@@ -1678,7 +1678,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Saint Lucia',
     flag: '🇱🇨',
-    code: CountryCode.Egypt,
+    code: CountryCode.SaintLucia,
     dial_code: '+1758',
     pattern: / /,
     placeholder: '',
@@ -1687,7 +1687,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Saint Martin',
     flag: '🇲🇫',
-    code: CountryCode.Egypt,
+    code: CountryCode.SaintMartin,
     dial_code: '+590',
     pattern: / /,
     placeholder: '',
@@ -1696,7 +1696,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Saint Pierre and Miquelon',
     flag: '🇵🇲',
-    code: CountryCode.Egypt,
+    code: CountryCode.SaintPierreAndMiquelon,
     dial_code: '+508',
     pattern: / /,
     placeholder: '',
@@ -1705,7 +1705,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Saint Vincent and the Grenadines',
     flag: '🇻🇨',
-    code: CountryCode.Egypt,
+    code: CountryCode.SaintVincentAndTheGrenadines,
     dial_code: '+1784',
     pattern: / /,
     placeholder: '',
@@ -1714,7 +1714,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Samoa',
     flag: '🇼🇸',
-    code: CountryCode.Egypt,
+    code: CountryCode.Samoa,
     dial_code: '+685',
     pattern: / /,
     placeholder: '',
@@ -1723,7 +1723,7 @@ export const Countries: Array<Country> = [
   {
     name: 'San Marino',
     flag: '🇸🇲',
-    code: CountryCode.Egypt,
+    code: CountryCode.SanMarino,
     dial_code: '+378',
     pattern: / /,
     placeholder: '',
@@ -1732,7 +1732,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Sao Tome and Principe',
     flag: '🇸🇹',
-    code: CountryCode.Egypt,
+    code: CountryCode.SaoTomeAndPrincipe,
     dial_code: '+239',
     pattern: / /,
     placeholder: '',
@@ -1741,7 +1741,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Saudi Arabia',
     flag: '🇸🇦',
-    code: CountryCode.Egypt,
+    code: CountryCode.SaudiArabia,
     dial_code: '+966',
     pattern: /^\d{9}$/,
     placeholder: '',
@@ -1750,7 +1750,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Senegal',
     flag: '🇸🇳',
-    code: CountryCode.Egypt,
+    code: CountryCode.Senegal,
     dial_code: '+221',
     pattern: / /,
     placeholder: '',
@@ -1759,7 +1759,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Serbia',
     flag: '🇷🇸',
-    code: CountryCode.Egypt,
+    code: CountryCode.Serbia,
     dial_code: '+381',
     pattern: / /,
     placeholder: '',
@@ -1768,7 +1768,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Seychelles',
     flag: '🇸🇨',
-    code: CountryCode.Egypt,
+    code: CountryCode.Seychelles,
     dial_code: '+248',
     pattern: / /,
     placeholder: '',
@@ -1777,7 +1777,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Sierra Leone',
     flag: '🇸🇱',
-    code: CountryCode.Egypt,
+    code: CountryCode.SierraLeone,
     dial_code: '+232',
     pattern: / /,
     placeholder: '',
@@ -1786,7 +1786,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Singapore',
     flag: '🇸🇬',
-    code: CountryCode.Egypt,
+    code: CountryCode.Singapore,
     dial_code: '+65',
     pattern: / /,
     placeholder: '',
@@ -1795,7 +1795,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Slovakia',
     flag: '🇸🇰',
-    code: CountryCode.Egypt,
+    code: CountryCode.Slovakia,
     dial_code: '+421',
     pattern: / /,
     placeholder: '',
@@ -1804,7 +1804,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Slovenia',
     flag: '🇸🇮',
-    code: CountryCode.Egypt,
+    code: CountryCode.Slovenia,
     dial_code: '+386',
     pattern: / /,
     placeholder: '',
@@ -1813,7 +1813,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Solomon Islands',
     flag: '🇸🇧',
-    code: CountryCode.Egypt,
+    code: CountryCode.SolomonIslands,
     dial_code: '+677',
     pattern: / /,
     placeholder: '',
@@ -1822,7 +1822,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Somalia',
     flag: '🇸🇴',
-    code: CountryCode.Egypt,
+    code: CountryCode.Somalia,
     dial_code: '+252',
     pattern: / /,
     placeholder: '',
@@ -1831,7 +1831,7 @@ export const Countries: Array<Country> = [
   {
     name: 'South Africa',
     flag: '🇿🇦',
-    code: CountryCode.Egypt,
+    code: CountryCode.SouthAfrica,
     dial_code: '+27',
     pattern: / /,
     placeholder: '',
@@ -1840,7 +1840,7 @@ export const Countries: Array<Country> = [
   {
     name: 'South Sudan',
     flag: '🇸🇸',
-    code: CountryCode.Egypt,
+    code: CountryCode.SouthSudan,
     dial_code: '+211',
     pattern: / /,
     placeholder: '',
@@ -1849,7 +1849,7 @@ export const Countries: Array<Country> = [
   {
     name: 'South Georgia and the South Sandwich Islands',
     flag: '🇬🇸',
-    code: CountryCode.Egypt,
+    code: CountryCode.SouthGeorgiaAndTheSouthSandwichIslands,
     dial_code: '+500',
     pattern: / /,
     placeholder: '',
@@ -1858,7 +1858,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Spain',
     flag: '🇪🇸',
-    code: CountryCode.Egypt,
+    code: CountryCode.Spain,
     dial_code: '+34',
     pattern: / /,
     placeholder: '',
@@ -1867,7 +1867,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Sri Lanka',
     flag: '🇱🇰',
-    code: CountryCode.Egypt,
+    code: CountryCode.SriLanka,
     dial_code: '+94',
     pattern: / /,
     placeholder: '',
@@ -1876,7 +1876,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Sudan',
     flag: '🇸🇩',
-    code: CountryCode.Egypt,
+    code: CountryCode.Sudan,
     dial_code: '+249',
     pattern: / /,
     placeholder: '',
@@ -1885,7 +1885,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Suriname',
     flag: '🇸🇷',
-    code: CountryCode.Egypt,
+    code: CountryCode.Suriname,
     dial_code: '+597',
     pattern: / /,
     placeholder: '',
@@ -1894,7 +1894,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Svalbard and Jan Mayen',
     flag: '🇸🇯',
-    code: CountryCode.Egypt,
+    code: CountryCode.SvalbardAndJanMayen,
     dial_code: '+47',
     pattern: / /,
     placeholder: '',
@@ -1903,7 +1903,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Swaziland',
     flag: '🇸🇿',
-    code: CountryCode.Egypt,
+    code: CountryCode.Swaziland,
     dial_code: '+268',
     pattern: / /,
     placeholder: '',
@@ -1912,7 +1912,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Sweden',
     flag: '🇸🇪',
-    code: CountryCode.Egypt,
+    code: CountryCode.Sweden,
     dial_code: '+46',
     pattern: / /,
     placeholder: '',
@@ -1921,7 +1921,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Switzerland',
     flag: '🇨🇭',
-    code: CountryCode.Egypt,
+    code: CountryCode.Switzerland,
     dial_code: '+41',
     pattern: / /,
     placeholder: '',
@@ -1930,7 +1930,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Syrian Arab Republic',
     flag: '🇸🇾',
-    code: CountryCode.Egypt,
+    code: CountryCode.SyrianArabRepublic,
     dial_code: '+963',
     pattern: / /,
     placeholder: '',
@@ -1939,7 +1939,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Taiwan',
     flag: '🇹🇼',
-    code: CountryCode.Egypt,
+    code: CountryCode.Taiwan,
     dial_code: '+886',
     pattern: / /,
     placeholder: '',
@@ -1948,7 +1948,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Tajikistan',
     flag: '🇹🇯',
-    code: CountryCode.Egypt,
+    code: CountryCode.Tajikistan,
     dial_code: '+992',
     pattern: / /,
     placeholder: '',
@@ -1957,7 +1957,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Tanzania, United Republic of Tanzania',
     flag: '🇹🇿',
-    code: CountryCode.Egypt,
+    code: CountryCode.TanzaniaUnitedRepublicOfTanzania,
     dial_code: '+255',
     pattern: / /,
     placeholder: '',
@@ -1966,7 +1966,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Thailand',
     flag: '🇹🇭',
-    code: CountryCode.Egypt,
+    code: CountryCode.Thailand,
     dial_code: '+66',
     pattern: / /,
     placeholder: '',
@@ -1975,7 +1975,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Timor-Leste',
     flag: '🇹🇱',
-    code: CountryCode.Egypt,
+    code: CountryCode.TimorLeste,
     dial_code: '+670',
     pattern: / /,
     placeholder: '',
@@ -1984,7 +1984,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Togo',
     flag: '🇹🇬',
-    code: CountryCode.Egypt,
+    code: CountryCode.Togo,
     dial_code: '+228',
     pattern: / /,
     placeholder: '',
@@ -1993,7 +1993,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Tokelau',
     flag: '🇹🇰',
-    code: CountryCode.Egypt,
+    code: CountryCode.Tokelau,
     dial_code: '+690',
     pattern: / /,
     placeholder: '',
@@ -2002,7 +2002,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Tonga',
     flag: '🇹🇴',
-    code: CountryCode.Egypt,
+    code: CountryCode.Tonga,
     dial_code: '+676',
     pattern: / /,
     placeholder: '',
@@ -2011,7 +2011,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Trinidad and Tobago',
     flag: '🇹🇹',
-    code: CountryCode.Egypt,
+    code: CountryCode.TrinidadAndTobago,
     dial_code: '+1868',
     pattern: / /,
     placeholder: '',
@@ -2020,7 +2020,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Tunisia',
     flag: '🇹🇳',
-    code: CountryCode.Egypt,
+    code: CountryCode.Tunisia,
     dial_code: '+216',
     pattern: /^(\+216[-\s]?)?(2[0123]|4[01234589]|5[012345679]|9[012345678])[-\s]?\d{3}[-\s]?\d{3}$/,
     placeholder: '52 123 456',
@@ -2029,7 +2029,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Turkey',
     flag: '🇹🇷',
-    code: CountryCode.Egypt,
+    code: CountryCode.Turkey,
     dial_code: '+90',
     pattern: /^(\+90[-\s]?)?5\d{2}[-\s]?\d{3}[-\s]?\d{4}$/,
     placeholder: '533 123 4567',
@@ -2038,7 +2038,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Turkmenistan',
     flag: '🇹🇲',
-    code: CountryCode.Egypt,
+    code: CountryCode.Turkmenistan,
     dial_code: '+993',
     pattern: /^(\+993[-\s]?)6\d{7}$/,
     placeholder: '+993 61234567',
@@ -2047,7 +2047,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Turks and Caicos Islands',
     flag: '🇹🇨',
-    code: CountryCode.Egypt,
+    code: CountryCode.TurksAndCaicosIslands,
     dial_code: '+1649',
     pattern: /^(\+1[-\s]?649[-\s]?)\d{3}[-\s]?\d{4}$/,
     placeholder: '+1 649 123 4567',
@@ -2056,7 +2056,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Tuvalu',
     flag: '🇹🇻',
-    code: CountryCode.Egypt,
+    code: CountryCode.Tuvalu,
     dial_code: '+688',
     pattern: /^(\+688[-\s]?)\d{5}$/,
     placeholder: '+688 90123',
@@ -2065,7 +2065,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Uganda',
     flag: '🇺🇬',
-    code: CountryCode.Egypt,
+    code: CountryCode.Uganda,
     dial_code: '+256',
     pattern: /^(\+256[-\s]?)?(7[0125-8])[-\s]?\d{3}[-\s]?\d{4}$/,
     placeholder: '75 123 4567',
@@ -2074,7 +2074,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Ukraine',
     flag: '🇺🇦',
-    code: CountryCode.Egypt,
+    code: CountryCode.Ukraine,
     dial_code: '+380',
     pattern: /^(\+380[-\s]?)?\d{2}[-\s]?\d{3}[-\s]?\d{4}$/,
     placeholder: '67 123 4567',
@@ -2083,7 +2083,7 @@ export const Countries: Array<Country> = [
   {
     name: 'United Arab Emirates',
     flag: '🇦🇪',
-    code: CountryCode.Egypt,
+    code: CountryCode.UnitedArabEmirates,
     dial_code: '+971',
     pattern: /^\+971\d{9}$/,
     placeholder: '+971501234567',
@@ -2092,7 +2092,7 @@ export const Countries: Array<Country> = [
   {
     name: 'United Kingdom',
     flag: '🇬🇧',
-    code: CountryCode.Egypt,
+    code: CountryCode.UnitedKingdom,
     dial_code: '+44',
     pattern: /^(\+44[-\s]?)?7\d{3}[-\s]?\d{6}$/,
     placeholder: '7700 123456',
@@ -2101,7 +2101,7 @@ export const Countries: Array<Country> = [
   {
     name: 'United States',
     flag: '🇺🇸',
-    code: CountryCode.Egypt,
+    code: CountryCode.UnitedStates,
     dial_code: '+1',
     pattern: /^(\+1[-\s]?)?\d{3}[-\s]?\d{3}[-\s]?\d{4}$/,
     placeholder: '111 123 4567',
@@ -2110,7 +2110,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Uruguay',
     flag: '🇺🇾',
-    code: CountryCode.Egypt,
+    code: CountryCode.Uruguay,
     dial_code: '+598',
     pattern: /^(\+598[-\s]?)?\d{2}[-\s]?\d{3}[-\s]?\d{3}$/,
     placeholder: '72 345 678',
@@ -2119,7 +2119,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Uzbekistan',
     flag: '🇺🇿',
-    code: CountryCode.Egypt,
+    code: CountryCode.Uzbekistan,
     dial_code: '+998',
     pattern: /^(\+998[-\s]?)?\d{2}[-\s]?\d{3}[-\s]?\d{4}$/,
     placeholder: '71 123 4567',
@@ -2128,7 +2128,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Vanuatu',
     flag: '🇻🇺',
-    code: CountryCode.Egypt,
+    code: CountryCode.Vanuatu,
     dial_code: '+678',
     pattern: /^(\+678[-\s]?)?[7-9]\d{6}$/,
     placeholder: '7123456',
@@ -2137,7 +2137,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Venezuela, Bolivarian Republic of Venezuela',
     flag: '🇻🇪',
-    code: CountryCode.Egypt,
+    code: CountryCode.VenezuelaBolivarianRepublicofVenezuela,
     dial_code: '+58',
     pattern: /^(\+58[-\s]?)?04(12|14|16|24|26|28)[-\s]?\d{3}[-\s]?\d{4}$/,
     placeholder: '0412 123 4567',
@@ -2146,7 +2146,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Vietnam',
     flag: '🇻🇳',
-    code: CountryCode.Egypt,
+    code: CountryCode.Vietnam,
     dial_code: '+84',
     pattern: /^(\+84[-\s]?)?(3|5|7|8|9)\d[-\s]?\d{4}[-\s]?\d{3}$/,
     placeholder: '90 1234 567',
@@ -2155,7 +2155,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Virgin Islands, British',
     flag: '🇻🇬',
-    code: CountryCode.Egypt,
+    code: CountryCode.VirginIslandsBritish,
     dial_code: '+1284',
     pattern: /^(\+1[-\s]?284|\+1284[-\s]?)?\d{3}[-\s]?\d{4}$/,
     placeholder: '123 4567',
@@ -2164,7 +2164,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Virgin Islands, U.S.',
     flag: '🇻🇮',
-    code: CountryCode.Egypt,
+    code: CountryCode.VirginIslandsUS,
     dial_code: '+1340',
     pattern: /^(\+1[-\s]?340|\+1340[-\s]?)?\d{3}[-\s]?\d{4}$/,
     placeholder: '123 4567',
@@ -2173,7 +2173,7 @@ export const Countries: Array<Country> = [
   {
     name: 'Wallis and Futuna',
     flag: '🇼🇫',
-    code: CountryCode.Egypt,
+    code: CountryCode.WallisandFutuna,
     dial_code: '+681',
     pattern: /^(00681|\+681[-\s]?)?(4|8)\d{1}[-\s]?\d{2}[-\s]?\d{2}$/,
     placeholder: '41 12 34',
@@ -2182,27 +2182,27 @@ export const Countries: Array<Country> = [
   {
     name: 'Yemen',
     flag: '🇾🇪',
-    code: CountryCode.Egypt,
+    code: CountryCode.Yemen,
     dial_code: '+967',
-    pattern: /^(00967|\+967[-\s]?)?7[01378][-\s]?\d{7}$/,
-    placeholder: '70 1234567',
+    pattern: /^(\+967[-\s]?)?7\d{2}[-\s]?\d{3}[-\s]?\d{3}$/,
+    placeholder: '701 123 456',
     id: 243,
   },
   {
     name: 'Zambia',
     flag: '🇿🇲',
-    code: CountryCode.Egypt,
+    code: CountryCode.Zambia,
     dial_code: '+260',
-    pattern: /^(00260|\+260[-\s]?)?(96|76|95|75|97|77)[-\s]?\d{7}$/,
+    pattern: /^(\+260[-\s]?)?(96|76|95|97|98)[-\s]?\d{7}$/,
     placeholder: '96 1234567',
     id: 244,
   },
   {
     name: 'Zimbabwe',
     flag: '🇿🇼',
-    code: CountryCode.Egypt,
+    code: CountryCode.Zimbabwe,
     dial_code: '+263',
-    pattern: /^(00263|\+263[-\s]?)?0?7[1378][-\s]?\d{3}[-\s]?\d{4}$/,
+    pattern: /^(\+263[-\s]?)?(7(1|7|8)|8(1|2|3))[-\s]?\d{3}[-\s]?\d{4}$/,
     placeholder: '77 123 4567',
     id: 245,
   },
