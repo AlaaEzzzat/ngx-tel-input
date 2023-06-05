@@ -5,8 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DropdownModule } from 'primeng/dropdown';
 import { InputTextModule } from 'primeng/inputtext';
 //Components
-import { CICPhonenumberComponent } from './cic-phonenumber/cic-phonenumber.component';
-
+import { CICPhonenumberComponent } from './public_api';
 @NgModule({
   declarations: [CICPhonenumberComponent],
   imports: [
