@@ -1,10 +1,12 @@
-export const Countries = [
+import { Country, CountryCode } from '../models';
+
+export const Countries: Array<Country> = [
   {
     name: 'Afghanistan',
     flag: '🇦🇫',
     code: 'af',
     dial_code: '+93',
-    pattern: '^[0-9]{7,9}$',
+    pattern: /^[0-9]{7,9}$/,
     placeholder: '',
   },
   {
@@ -12,7 +14,7 @@ export const Countries = [
     flag: '🇦🇽',
     code: 'ax',
     dial_code: '+358',
-    pattern: '^(18|457)\\d{5,7}$',
+    pattern: /^(18|457)\\d{5,7}$/,
     placeholder: '',
   },
   {
@@ -20,7 +22,7 @@ export const Countries = [
     flag: '🇦🇱',
     code: 'al',
     dial_code: '+355',
-    pattern: '^[0-9]{6,10}$',
+    pattern: /^[0-9]{6,10}$/,
     placeholder: '',
   },
   {
@@ -28,7 +30,7 @@ export const Countries = [
     flag: '🇩🇿',
     code: 'dz',
     dial_code: '+213',
-    pattern: '^[0-9]{9,10}$',
+    pattern: /^[0-9]{9,10}$/,
     placeholder: '',
   },
   {
@@ -36,7 +38,7 @@ export const Countries = [
     flag: '🇦🇸',
     code: 'as',
     dial_code: '+1684',
-    pattern: '^[0-9]{4,7}$',
+    pattern: /^[0-9]{4,7}$/,
     placeholder: '',
   },
   {
@@ -44,7 +46,7 @@ export const Countries = [
     flag: '🇦🇩',
     code: 'ad',
     dial_code: '+376',
-    pattern: '^[0-9]{6}$',
+    pattern: /^[0-9]{6}$/,
     placeholder: '',
   },
   {
@@ -52,7 +54,7 @@ export const Countries = [
     flag: '🇦🇴',
     code: 'ao',
     dial_code: '+244',
-    pattern: '(^\\d{3} \\d{3} \\d{3}$|^\\d{9}$)',
+    pattern: /(^\\d{3} \\d{3} \\d{3}$|^\\d{9}$)/,
     placeholder: '',
   },
   {
@@ -60,7 +62,7 @@ export const Countries = [
     flag: '🇦🇮',
     code: 'ai',
     dial_code: '+1264',
-    pattern: '(^\\d{3} \\d{4}$|\\d{3}-\\d{4}$| ^\\d{11}$) ',
+    pattern: /(^\\d{3} \\d{4}$|\\d{3}-\\d{4}$| ^\\d{11}$) /,
     placeholder: '',
   },
   {
@@ -68,7 +70,7 @@ export const Countries = [
     flag: '🇦🇶',
     code: 'aq',
     dial_code: '+672',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -76,7 +78,7 @@ export const Countries = [
     flag: '🇦🇬',
     code: 'ag',
     dial_code: '+1268',
-    pattern: '(^\\d{3}-\\d{4}$|^\\d{3} \\d{4}$|^\\d{7})',
+    pattern: /(^\\d{3}-\\d{4}$|^\\d{3} \\d{4}$|^\\d{7})/,
     placeholder: '',
   },
   {
@@ -84,7 +86,7 @@ export const Countries = [
     flag: '🇦🇷',
     code: 'ar',
     dial_code: '+54',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -92,7 +94,7 @@ export const Countries = [
     flag: '🇦🇲',
     code: 'am',
     dial_code: '+374',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -100,15 +102,15 @@ export const Countries = [
     flag: '🇦🇼',
     code: 'aw',
     dial_code: '+297',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
     name: 'Australia',
     flag: '🇦🇺',
-    code: 'au',
+    code: CountryCode.Australia,
     dial_code: '+61',
-    pattern: '^\\d{9}$',
+    pattern: /^\\d{9}$/,
     placeholder: '',
   },
   {
@@ -116,7 +118,7 @@ export const Countries = [
     flag: '🇦🇹',
     code: 'at',
     dial_code: '+43',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -124,7 +126,7 @@ export const Countries = [
     flag: '🇦🇿',
     code: 'az',
     dial_code: '+994',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -132,7 +134,7 @@ export const Countries = [
     flag: '🇧🇸',
     code: 'bs',
     dial_code: '+1242',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -140,7 +142,7 @@ export const Countries = [
     flag: '🇧🇭',
     code: 'bh',
     dial_code: '+973',
-    pattern: '^5\\d{8}$',
+    pattern: /^5\\d{8}$/,
     placeholder: '',
   },
   {
@@ -148,7 +150,7 @@ export const Countries = [
     flag: '🇧🇩',
     code: 'bd',
     dial_code: '+880',
-    pattern: '^9\\d{8}$',
+    pattern: /^9\\d{8}$/,
     placeholder: '',
   },
   {
@@ -156,7 +158,7 @@ export const Countries = [
     flag: '🇧🇧',
     code: 'bb',
     dial_code: '+1246',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -164,7 +166,7 @@ export const Countries = [
     flag: '🇧🇾',
     code: 'by',
     dial_code: '+375',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -172,7 +174,7 @@ export const Countries = [
     flag: '🇧🇪',
     code: 'be',
     dial_code: '+32',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -180,7 +182,7 @@ export const Countries = [
     flag: '🇧🇿',
     code: 'bz',
     dial_code: '+501',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -188,7 +190,7 @@ export const Countries = [
     flag: '🇧🇯',
     code: 'bj',
     dial_code: '+229',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -196,7 +198,7 @@ export const Countries = [
     flag: '🇧🇲',
     code: 'bm',
     dial_code: '+1441',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -204,7 +206,7 @@ export const Countries = [
     flag: '🇧🇹',
     code: 'bt',
     dial_code: '+975',
-    pattern: '^9\\d{8}$',
+    pattern: /^9\\d{8}$/,
     placeholder: '',
   },
   {
@@ -212,7 +214,7 @@ export const Countries = [
     flag: '🇧🇴',
     code: 'bo',
     dial_code: '+591',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -220,7 +222,7 @@ export const Countries = [
     flag: '🇧🇦',
     code: 'ba',
     dial_code: '+387',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -228,7 +230,7 @@ export const Countries = [
     flag: '🇧🇼',
     code: 'bw',
     dial_code: '+267',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -236,7 +238,7 @@ export const Countries = [
     flag: '🇧🇻',
     code: 'bv',
     dial_code: '+47',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -244,7 +246,7 @@ export const Countries = [
     flag: '🇧🇷',
     code: 'br',
     dial_code: '+55',
-    pattern: '^\\d{10}$',
+    pattern: /^\\d{10}$/,
     placeholder: '',
   },
   {
@@ -252,7 +254,7 @@ export const Countries = [
     flag: '🇮🇴',
     code: 'io',
     dial_code: '+246',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -260,7 +262,7 @@ export const Countries = [
     flag: '🇧🇳',
     code: 'bn',
     dial_code: '+673',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -268,7 +270,7 @@ export const Countries = [
     flag: '🇧🇬',
     code: 'bg',
     dial_code: '+359',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -276,7 +278,7 @@ export const Countries = [
     flag: '🇧🇫',
     code: 'bf',
     dial_code: '+226',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -284,7 +286,7 @@ export const Countries = [
     flag: '🇧🇮',
     code: 'bi',
     dial_code: '+257',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -292,7 +294,7 @@ export const Countries = [
     flag: '🇰🇭',
     code: 'kh',
     dial_code: '+855',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -300,7 +302,7 @@ export const Countries = [
     flag: '🇨🇲',
     code: 'cm',
     dial_code: '+237',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -308,7 +310,7 @@ export const Countries = [
     flag: '🇨🇦',
     code: 'ca',
     dial_code: '+1',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -316,7 +318,7 @@ export const Countries = [
     flag: '🇨🇻',
     code: 'cv',
     dial_code: '+238',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -324,7 +326,7 @@ export const Countries = [
     flag: '🇰🇾',
     code: 'ky',
     dial_code: '+345',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -332,7 +334,7 @@ export const Countries = [
     flag: '🇨🇫',
     code: 'cf',
     dial_code: '+236',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -340,7 +342,7 @@ export const Countries = [
     flag: '🇹🇩',
     code: 'td',
     dial_code: '+235',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -348,7 +350,7 @@ export const Countries = [
     flag: '🇨🇱',
     code: 'cl',
     dial_code: '+56',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -356,7 +358,7 @@ export const Countries = [
     flag: '🇨🇳',
     code: 'cn',
     dial_code: '+86',
-    pattern: '^\\d{11}$',
+    pattern: /^\\d{11}$/,
     placeholder: '',
   },
   {
@@ -364,7 +366,7 @@ export const Countries = [
     flag: '🇨🇽',
     code: 'cx',
     dial_code: '+61',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -372,7 +374,7 @@ export const Countries = [
     flag: '🇨🇨',
     code: 'cc',
     dial_code: '+61',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -380,7 +382,7 @@ export const Countries = [
     flag: '🇨🇴',
     code: 'co',
     dial_code: '+57',
-    pattern: '^3\\d{9}$',
+    pattern: /^3\\d{9}$/,
     placeholder: '',
   },
   {
@@ -388,7 +390,7 @@ export const Countries = [
     flag: '🇰🇲',
     code: 'km',
     dial_code: '+269',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -396,7 +398,7 @@ export const Countries = [
     flag: '🇨🇬',
     code: 'cg',
     dial_code: '+242',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -404,7 +406,7 @@ export const Countries = [
     flag: '🇨🇩',
     code: 'cd',
     dial_code: '+243',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -412,7 +414,7 @@ export const Countries = [
     flag: '🇨🇰',
     code: 'ck',
     dial_code: '+682',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -420,7 +422,7 @@ export const Countries = [
     flag: '🇨🇷',
     code: 'cr',
     dial_code: '+506',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -428,7 +430,7 @@ export const Countries = [
     flag: '🇨🇮',
     code: 'ci',
     dial_code: '+225',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -436,7 +438,7 @@ export const Countries = [
     flag: '🇭🇷',
     code: 'hr',
     dial_code: '+385',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -444,7 +446,7 @@ export const Countries = [
     flag: '🇨🇺',
     code: 'cu',
     dial_code: '+53',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -452,7 +454,7 @@ export const Countries = [
     flag: '🇨🇾',
     code: 'cy',
     dial_code: '+357',
-    pattern: '^6\\d{8}$',
+    pattern: /^6\\d{8}$/,
     placeholder: '',
   },
   {
@@ -460,7 +462,7 @@ export const Countries = [
     flag: '🇨🇿',
     code: 'cz',
     dial_code: '+420',
-    pattern: '',
+    pattern: / /,
     placeholder: '',
   },
   {
@@ -506,9 +508,9 @@ export const Countries = [
   {
     name: 'Egypt',
     flag: '🇪🇬',
-    code: 'eg',
+    code: CountryCode.Egypt,
     dial_code: '+20',
-    pattern: '(^1\\d{9}$|^\\d{3} \\d{4} \\d{3}$)',
+    pattern: /(^1\\d{9}$|^\\d{3} \\d{4} \\d{3}$)/,
     placeholder: '(###)###-###',
   },
   {
