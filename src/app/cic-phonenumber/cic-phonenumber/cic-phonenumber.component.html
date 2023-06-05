@@ -1,50 +1,49 @@
-<ng-container>
-  <section class="tel-container">
-    <div class="row">
-      <div class="col-4">
-        <p-dropdown
-          [options]="_countries"
-          [(ngModel)]="_selectedCountry"
-          (onChange)="chageActiveDialCode($event)"
-          [optionLabel]="optionLabel"
-          [name]="name"
-          [placeholder]="placeholder"
-          [filter]="true"
-          filterBy="name"
-          [styleClass]="'tel-dropdown ' + styleClass"
-        >
-          <ng-template pTemplate="selectedItem">
-            <div
-              class="d-flex align-items-center gap-2"
-              *ngIf="_selectedCountry"
-            >
-              <div>
-                <span class="fi fi-{{ _selectedCountry.code }}"></span>&nbsp;
-                {{ _selectedCountry.dial_code }}
-              </div>
-            </div>
-          </ng-template>
-          <ng-template let-country pTemplate="item">
-            <div class="d-flex align-items-center gap-2">
-              <div>
-                <span class="fi fi-{{ country.code }}"></span> &nbsp;
-                {{ country.name }} &nbsp; {{ country.dial_code }}
-              </div>
-            </div>
-          </ng-template>
-        </p-dropdown>
+<div
+  class="cic-phonenumber{{
+    _formControl.invalid && (_formControl.touched || _formControl.dirty)
+      ? ' error-border'
+      : ''
+  }} {{ styleClass }}"
+>
+  <!-- Country dropdown -->
+  <p-dropdown
+    [options]="_countries"
+    [(ngModel)]="_selectedCountry"
+    (onChange)="activeDialChanged($event)"
+    optionLabel="name"
+    [filter]="true"
+    placeholder="+###"
+    filterBy="name,dial_code"
+    styleClass="cic-phonenumber__dropdown {{ dropdownStyleClass }}"
+  >
+    <!-- Selected item -->
+    <ng-template pTemplate="selectedItem">
+      <div class="cic-phonenumber__selected" *ngIf="_selectedCountry">
+        <i class="fi fi-{{ _selectedCountry.code }}"></i>
+        <span>{{ _selectedCountry.dial_code }}</span>
       </div>
-      <div class="col-8">
-        <input
-          [pattern]="_selectedCountry.pattern"
-          class="tel-input"
-          pInputText
-          pKeyFilter="int"
-          [placeholder]="_selectedCountry.placeholder"
-          [(ngModel)]="_phoneNumber"
-          name="phoneNumber"
-        />
+    </ng-template>
+
+    <!-- Dropdown item -->
+    <ng-template let-country pTemplate="item">
+      <div class="cic-phonenumber__item">
+        <div>
+          <i class="fi fi-{{ country.code }}"></i>
+          <span>{{ country.name }}</span>
+        </div>
+        <span>{{ country.dial_code }}</span>
       </div>
-    </div>
-  </section>
-</ng-container>
+    </ng-template>
+  </p-dropdown>
+
+  <!-- Phone input -->
+  <input
+    pInputText
+    class="cic-phonenumber__input {{ inputStyleClass }}"
+    type="tel"
+    [placeholder]="getPlaceholder()"
+    [(ngModel)]="_phoneNumber"
+    (ngModelChange)="onPhoneChange($event)"
+    (click)="touched()"
+  />
+</div>

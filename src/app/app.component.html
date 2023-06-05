@@ -1,5 +1,8 @@
-<form [formGroup]="myForm" class="p-5">
-  <cic-phonenumber controlName="phoneNumber"></cic-phonenumber>
+<form [formGroup]="myForm" class="p-5 dir">
+  <cic-phonenumber
+    controlName="phoneNumber"
+    class="w-50 d-block"
+  ></cic-phonenumber>
   <div
     *ngIf="
       myForm.controls['phoneNumber']?.invalid &&

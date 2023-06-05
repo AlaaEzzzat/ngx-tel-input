@@ -24,7 +24,7 @@ export enum CountryCode {
   Benin = 'bj',
   Bermuda = 'bm',
   Bhutan = 'bt',
-  Bolivia = 'bo',
+  BoliviaPlurinationalStateofbolivia = 'bo',
   BosniaandHerzegovina = 'ba',
   Botswana = 'bw',
   BouvetIsland = 'bv',
