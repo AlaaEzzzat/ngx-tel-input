@@ -17,8 +17,9 @@ export class AppComponent implements OnInit {
     flag: '🇪🇬',
     code: 'eg',
     dial_code: '+20',
-    pattern: '(^1\\d{9}$|^\\d{3} \\d{4} \\d{3}$)',
-    placeholder: '(###)###-###',
+    pattern: /^(?:\+20|20)?[-\s]?1[0125][-\s]?\d{4}[-\s]?\d{4}$/,
+    placeholder: '10 1234 5678',
+    id: 64,
   };
   phoneNumber!: string;
   activeDialCode: string;
@@ -28,9 +29,7 @@ export class AppComponent implements OnInit {
   constructor() {
     this.activeDialCode = this.selectedCountry.dial_code;
   }
-  ngOnInit() {
-    console.log(this.countries);
-  }
+  ngOnInit() {}
   print() {
     console.log('Slected country: ' + JSON.stringify(this.selectedCountry));
     console.log('Active Code: ' + this.activeDialCode);
@@ -46,6 +45,7 @@ export class AppComponent implements OnInit {
           .replaceAll(' ', '')
           .replaceAll('-', '')
           .replace(this.activeDialCode, '')
+          .replace('00' + this.activeDialCode.slice(1), '')
     );
   }
   chageActiveDialCode(ev: any) {
