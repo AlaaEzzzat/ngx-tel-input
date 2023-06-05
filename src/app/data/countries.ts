@@ -6,6 +6,7 @@ export const Countries = [
     dial_code: '+93',
     pattern: '^[0-9]{7,9}$',
     placeholder: '',
+    id: 1,
   },
   {
     name: 'Åland Islands',
@@ -14,6 +15,7 @@ export const Countries = [
     dial_code: '+358',
     pattern: '^(18|457)\\d{5,7}$',
     placeholder: '',
+    id: 2,
   },
   {
     name: 'Albania',
@@ -22,6 +24,7 @@ export const Countries = [
     dial_code: '+355',
     pattern: '^[0-9]{6,10}$',
     placeholder: '',
+    id: 3,
   },
   {
     name: 'Algeria',
@@ -30,6 +33,7 @@ export const Countries = [
     dial_code: '+213',
     pattern: '^[0-9]{9,10}$',
     placeholder: '',
+    id: 4,
   },
   {
     name: 'American Samoa',
@@ -38,6 +42,7 @@ export const Countries = [
     dial_code: '+1684',
     pattern: '^[0-9]{4,7}$',
     placeholder: '',
+    id: 5,
   },
   {
     name: 'Andorra',
@@ -46,22 +51,25 @@ export const Countries = [
     dial_code: '+376',
     pattern: '^[0-9]{6}$',
     placeholder: '',
+    id: 6,
   },
   {
     name: 'Angola',
     flag: '🇦🇴',
     code: 'ao',
     dial_code: '+244',
-    pattern: '',
+    pattern: '(^\\d{3} \\d{3} \\d{3}$|^\\d{9}$)',
     placeholder: '',
+    id: 7,
   },
   {
     name: 'Anguilla',
     flag: '🇦🇮',
     code: 'ai',
     dial_code: '+1264',
-    pattern: '',
+    pattern: '(^\\d{3} \\d{4}$|\\d{3}-\\d{4}$| ^\\d{11}$) ',
     placeholder: '',
+    id: 8,
   },
   {
     name: 'Antarctica',
@@ -70,14 +78,16 @@ export const Countries = [
     dial_code: '+672',
     pattern: '',
     placeholder: '',
+    id: 9,
   },
   {
     name: 'Antigua and Barbuda',
     flag: '🇦🇬',
     code: 'ag',
     dial_code: '+1268',
-    pattern: '',
+    pattern: '(^\\d{3}-\\d{4}$|^\\d{3} \\d{4}$|^\\d{7})',
     placeholder: '',
+    id: 10,
   },
   {
     name: 'Argentina',
@@ -86,6 +96,7 @@ export const Countries = [
     dial_code: '+54',
     pattern: '',
     placeholder: '',
+    id: 11,
   },
   {
     name: 'Armenia',
@@ -94,6 +105,7 @@ export const Countries = [
     dial_code: '+374',
     pattern: '',
     placeholder: '',
+    id: 12,
   },
   {
     name: 'Aruba',
@@ -102,6 +114,7 @@ export const Countries = [
     dial_code: '+297',
     pattern: '',
     placeholder: '',
+    id: 13,
   },
   {
     name: 'Australia',
@@ -110,6 +123,7 @@ export const Countries = [
     dial_code: '+61',
     pattern: '^\\d{9}$',
     placeholder: '',
+    id: 14,
   },
   {
     name: 'Austria',
@@ -118,6 +132,7 @@ export const Countries = [
     dial_code: '+43',
     pattern: '',
     placeholder: '',
+    id: 15,
   },
   {
     name: 'Azerbaijan',
@@ -126,6 +141,7 @@ export const Countries = [
     dial_code: '+994',
     pattern: '',
     placeholder: '',
+    id: 16,
   },
   {
     name: 'Bahamas',
@@ -134,6 +150,7 @@ export const Countries = [
     dial_code: '+1242',
     pattern: '',
     placeholder: '',
+    id: 17,
   },
   {
     name: 'Bahrain',
@@ -142,6 +159,7 @@ export const Countries = [
     dial_code: '+973',
     pattern: '^5\\d{8}$',
     placeholder: '',
+    id: 18,
   },
   {
     name: 'Bangladesh',
@@ -150,6 +168,7 @@ export const Countries = [
     dial_code: '+880',
     pattern: '^9\\d{8}$',
     placeholder: '',
+    id: 19,
   },
   {
     name: 'Barbados',
@@ -158,6 +177,7 @@ export const Countries = [
     dial_code: '+1246',
     pattern: '',
     placeholder: '',
+    id: 20,
   },
   {
     name: 'Belarus',
@@ -166,6 +186,7 @@ export const Countries = [
     dial_code: '+375',
     pattern: '',
     placeholder: '',
+    id: 21,
   },
   {
     name: 'Belgium',
@@ -174,6 +195,7 @@ export const Countries = [
     dial_code: '+32',
     pattern: '',
     placeholder: '',
+    id: 22,
   },
   {
     name: 'Belize',
@@ -182,6 +204,7 @@ export const Countries = [
     dial_code: '+501',
     pattern: '',
     placeholder: '',
+    id: 23,
   },
   {
     name: 'Benin',
@@ -190,6 +213,7 @@ export const Countries = [
     dial_code: '+229',
     pattern: '',
     placeholder: '',
+    id: 24,
   },
   {
     name: 'Bermuda',
@@ -198,6 +222,7 @@ export const Countries = [
     dial_code: '+1441',
     pattern: '',
     placeholder: '',
+    id: 25,
   },
   {
     name: 'Bhutan',
@@ -206,6 +231,7 @@ export const Countries = [
     dial_code: '+975',
     pattern: '^9\\d{8}$',
     placeholder: '',
+    id: 26,
   },
   {
     name: 'Bolivia, Plurinational State of bolivia',
@@ -214,6 +240,7 @@ export const Countries = [
     dial_code: '+591',
     pattern: '',
     placeholder: '',
+    id: 27,
   },
   {
     name: 'Bosnia and Herzegovina',
@@ -222,6 +249,7 @@ export const Countries = [
     dial_code: '+387',
     pattern: '',
     placeholder: '',
+    id: 28,
   },
   {
     name: 'Botswana',
@@ -230,6 +258,7 @@ export const Countries = [
     dial_code: '+267',
     pattern: '',
     placeholder: '',
+    id: 29,
   },
   {
     name: 'Bouvet Island',
@@ -238,6 +267,7 @@ export const Countries = [
     dial_code: '+47',
     pattern: '',
     placeholder: '',
+    id: 30,
   },
   {
     name: 'Brazil',
@@ -246,6 +276,7 @@ export const Countries = [
     dial_code: '+55',
     pattern: '^\\d{10}$',
     placeholder: '',
+    id: 31,
   },
   {
     name: 'British Indian Ocean Territory',
@@ -254,6 +285,7 @@ export const Countries = [
     dial_code: '+246',
     pattern: '',
     placeholder: '',
+    id: 32,
   },
   {
     name: 'Brunei Darussalam',
@@ -262,6 +294,7 @@ export const Countries = [
     dial_code: '+673',
     pattern: '',
     placeholder: '',
+    id: 33,
   },
   {
     name: 'Bulgaria',
@@ -270,6 +303,7 @@ export const Countries = [
     dial_code: '+359',
     pattern: '',
     placeholder: '',
+    id: 34,
   },
   {
     name: 'Burkina Faso',
@@ -278,6 +312,7 @@ export const Countries = [
     dial_code: '+226',
     pattern: '',
     placeholder: '',
+    id: 35,
   },
   {
     name: 'Burundi',
@@ -286,6 +321,7 @@ export const Countries = [
     dial_code: '+257',
     pattern: '',
     placeholder: '',
+    id: 36,
   },
   {
     name: 'Cambodia',
@@ -294,6 +330,7 @@ export const Countries = [
     dial_code: '+855',
     pattern: '',
     placeholder: '',
+    id: 37,
   },
   {
     name: 'Cameroon',
@@ -302,6 +339,7 @@ export const Countries = [
     dial_code: '+237',
     pattern: '',
     placeholder: '',
+    id: 38,
   },
   {
     name: 'Canada',
@@ -310,6 +348,7 @@ export const Countries = [
     dial_code: '+1',
     pattern: '',
     placeholder: '',
+    id: 39,
   },
   {
     name: 'Cape Verde',
@@ -318,6 +357,7 @@ export const Countries = [
     dial_code: '+238',
     pattern: '',
     placeholder: '',
+    id: 40,
   },
   {
     name: 'Cayman Islands',
@@ -326,6 +366,7 @@ export const Countries = [
     dial_code: '+345',
     pattern: '',
     placeholder: '',
+    id: 41,
   },
   {
     name: 'Central African Republic',
@@ -334,6 +375,7 @@ export const Countries = [
     dial_code: '+236',
     pattern: '',
     placeholder: '',
+    id: 42,
   },
   {
     name: 'Chad',
@@ -342,6 +384,7 @@ export const Countries = [
     dial_code: '+235',
     pattern: '',
     placeholder: '',
+    id: 43,
   },
   {
     name: 'Chile',
@@ -350,6 +393,7 @@ export const Countries = [
     dial_code: '+56',
     pattern: '',
     placeholder: '',
+    id: 44,
   },
   {
     name: 'China',
@@ -358,6 +402,7 @@ export const Countries = [
     dial_code: '+86',
     pattern: '^\\d{11}$',
     placeholder: '',
+    id: 45,
   },
   {
     name: 'Christmas Island',
@@ -366,6 +411,7 @@ export const Countries = [
     dial_code: '+61',
     pattern: '',
     placeholder: '',
+    id: 46,
   },
   {
     name: 'Cocos (Keeling) Islands',
@@ -374,6 +420,7 @@ export const Countries = [
     dial_code: '+61',
     pattern: '',
     placeholder: '',
+    id: 47,
   },
   {
     name: 'Colombia',
@@ -382,6 +429,7 @@ export const Countries = [
     dial_code: '+57',
     pattern: '^3\\d{9}$',
     placeholder: '',
+    id: 48,
   },
   {
     name: 'Comoros',
@@ -390,6 +438,7 @@ export const Countries = [
     dial_code: '+269',
     pattern: '',
     placeholder: '',
+    id: 49,
   },
   {
     name: 'Congo',
@@ -398,6 +447,7 @@ export const Countries = [
     dial_code: '+242',
     pattern: '',
     placeholder: '',
+    id: 50,
   },
   {
     name: 'Congo, The Democratic Republic of the Congo',
@@ -406,6 +456,7 @@ export const Countries = [
     dial_code: '+243',
     pattern: '',
     placeholder: '',
+    id: 51,
   },
   {
     name: 'Cook Islands',
@@ -414,6 +465,7 @@ export const Countries = [
     dial_code: '+682',
     pattern: '',
     placeholder: '',
+    id: 52,
   },
   {
     name: 'Costa Rica',
@@ -422,6 +474,7 @@ export const Countries = [
     dial_code: '+506',
     pattern: '',
     placeholder: '',
+    id: 53,
   },
   {
     name: "Cote d'Ivoire",
@@ -430,6 +483,7 @@ export const Countries = [
     dial_code: '+225',
     pattern: '',
     placeholder: '',
+    id: 54,
   },
   {
     name: 'Croatia',
@@ -438,6 +492,7 @@ export const Countries = [
     dial_code: '+385',
     pattern: '',
     placeholder: '',
+    id: 55,
   },
   {
     name: 'Cuba',
@@ -446,6 +501,7 @@ export const Countries = [
     dial_code: '+53',
     pattern: '',
     placeholder: '',
+    id: 56,
   },
   {
     name: 'Cyprus',
@@ -454,6 +510,7 @@ export const Countries = [
     dial_code: '+357',
     pattern: '^6\\d{8}$',
     placeholder: '',
+    id: 57,
   },
   {
     name: 'Czech Republic',
@@ -462,6 +519,7 @@ export const Countries = [
     dial_code: '+420',
     pattern: '',
     placeholder: '',
+    id: 58,
   },
   {
     name: 'Denmark',
@@ -470,6 +528,7 @@ export const Countries = [
     dial_code: '+45',
     pattern: '^5\\d{8}$',
     placeholder: '',
+    id: 59,
   },
   {
     name: 'Djibouti',
@@ -478,6 +537,7 @@ export const Countries = [
     dial_code: '+253',
     pattern: '',
     placeholder: '',
+    id: 60,
   },
   {
     name: 'Dominica',
@@ -486,6 +546,7 @@ export const Countries = [
     dial_code: '+1767',
     pattern: '',
     placeholder: '',
+    id: 61,
   },
   {
     name: 'Dominican Republic',
@@ -494,6 +555,7 @@ export const Countries = [
     dial_code: '+1849',
     pattern: '',
     placeholder: '',
+    id: 62,
   },
   {
     name: 'Ecuador',
@@ -502,14 +564,16 @@ export const Countries = [
     dial_code: '+593',
     pattern: '',
     placeholder: '',
+    id: 63,
   },
   {
     name: 'Egypt',
     flag: '🇪🇬',
     code: 'eg',
     dial_code: '+20',
-    pattern: '^1\\d{9}$',
+    pattern: '(^1\\d{9}$|^d{3} \\d{4} \\d{3}$ |)',
     placeholder: '(###)###-###',
+    id: 64,
   },
   {
     name: 'El Salvador',
@@ -518,6 +582,7 @@ export const Countries = [
     dial_code: '+503',
     pattern: '',
     placeholder: '',
+    id: 65,
   },
   {
     name: 'Equatorial Guinea',
@@ -526,6 +591,7 @@ export const Countries = [
     dial_code: '+240',
     pattern: '',
     placeholder: '',
+    id: 66,
   },
   {
     name: 'Eritrea',
@@ -534,6 +600,7 @@ export const Countries = [
     dial_code: '+291',
     pattern: '',
     placeholder: '',
+    id: 67,
   },
   {
     name: 'Estonia',
@@ -542,6 +609,7 @@ export const Countries = [
     dial_code: '+372',
     pattern: '^4\\d{8}$',
     placeholder: '',
+    id: 68,
   },
   {
     name: 'Ethiopia',
@@ -550,6 +618,7 @@ export const Countries = [
     dial_code: '+251',
     pattern: '',
     placeholder: '',
+    id: 69,
   },
   {
     name: 'Falkland Islands (Malvinas)',
@@ -558,6 +627,7 @@ export const Countries = [
     dial_code: '+500',
     pattern: '',
     placeholder: '',
+    id: 70,
   },
   {
     name: 'Faroe Islands',
@@ -566,6 +636,7 @@ export const Countries = [
     dial_code: '+298',
     pattern: '',
     placeholder: '',
+    id: 71,
   },
   {
     name: 'Fiji',
@@ -574,6 +645,7 @@ export const Countries = [
     dial_code: '+679',
     pattern: '',
     placeholder: '',
+    id: 72,
   },
   {
     name: 'Finland',
@@ -582,6 +654,7 @@ export const Countries = [
     dial_code: '+358',
     pattern: '^50\\d{7}$',
     placeholder: '',
+    id: 73,
   },
   {
     name: 'France',
@@ -590,6 +663,7 @@ export const Countries = [
     dial_code: '+33',
     pattern: '^\\d{9}$',
     placeholder: '',
+    id: 74,
   },
   {
     name: 'French Guiana',
@@ -598,6 +672,7 @@ export const Countries = [
     dial_code: '+594',
     pattern: '',
     placeholder: '',
+    id: 75,
   },
   {
     name: 'French Polynesia',
@@ -606,6 +681,7 @@ export const Countries = [
     dial_code: '+689',
     pattern: '',
     placeholder: '',
+    id: 76,
   },
   {
     name: 'French Southern Territories',
@@ -614,6 +690,7 @@ export const Countries = [
     dial_code: '+262',
     pattern: '',
     placeholder: '',
+    id: 77,
   },
   {
     name: 'Gabon',
@@ -622,6 +699,7 @@ export const Countries = [
     dial_code: '+241',
     pattern: '',
     placeholder: '',
+    id: 78,
   },
   {
     name: 'Gambia',
@@ -630,62 +708,72 @@ export const Countries = [
     dial_code: '+220',
     pattern: '',
     placeholder: '',
+    id: 79,
   },
   {
     name: 'Georgia',
     flag: '🇬🇪',
     code: 'ge',
     dial_code: '+995',
-    pattern: '',
-    placeholder: '',
+    pattern:
+      /^(\+995|0)?[\s,\-]?(5|7|8)[\s,\-]?[0-9]{2}[\s,\-]?[0-9]{2}[\s,\-]?[0-9]{2}[\s,\-]?[0-9]{1,2}$/,
+    placeholder: '5-25-58-74-1',
+    id: 80,
   },
   {
     name: 'Germany',
     flag: '🇩🇪',
     code: 'de',
     dial_code: '+49',
-    pattern: '^\\d{10}$',
-    placeholder: '',
+    pattern: /^(\+49|0049)?[\s,\-]?[1-9]\d{1,4}[\s,\-]?\d{6,7}/,
+    placeholder: '7123-5555555',
+    id: 81,
   },
   {
     name: 'Ghana',
     flag: '🇬🇭',
     code: 'gh',
     dial_code: '+233',
-    pattern: '',
-    placeholder: '',
+    pattern:
+      /^(\+233|00233)?[\s,\-]?(20|21|22|23|24|25|26|27|28|30|31|32|33|34|35|36|37|38|39|50|54|57|56|55|58|51|71|59)[\s,\-]?\d{3}[\s,\-]?\d{4}/,
+    placeholder: '50-123-4567',
+    id: 82,
   },
   {
     name: 'Gibraltar',
     flag: '🇬🇮',
     code: 'gi',
     dial_code: '+350',
-    pattern: '',
-    placeholder: '',
+    pattern: /^(\+350|00350)?[\s,\-]?\d{2}[\s,\-]?\d{3}$/,
+    placeholder: '12-456',
+    id: 83,
   },
   {
     name: 'Greece',
     flag: '🇬🇷',
     code: 'gr',
     dial_code: '+30',
-    pattern: '^9\\d{7}$',
-    placeholder: '',
+    pattern: /^(\+30|0030)?2[\s,\-]?\d{2}[\s,\-]?\d{3}[\s,\-]?\d{4}$/,
+    placeholder: '2-45-212-5555',
+    id: 84,
   },
   {
     name: 'Greenland',
     flag: '🇬🇱',
     code: 'gl',
     dial_code: '+299',
-    pattern: '',
-    placeholder: '',
+    pattern: /^(\+299|299)?[\s,\-]?\d{2}[\s,\-]?\d{2}[\s,\-]\d{2}$/,
+    placeholder: '45-55-55',
+    id: 85,
   },
   {
     name: 'Grenada',
     flag: '🇬🇩',
     code: 'gd',
     dial_code: '+1473',
-    pattern: '',
-    placeholder: '',
+    pattern: /^(\+1473|1)?[\s,\-]?\d{2}[\s,\-]?\d{2}[\s,\-]?\d{3}$/,
+    placeholder: '11-85-856',
+    id: 86,
   },
   {
     name: 'Guadeloupe',
@@ -694,142 +782,162 @@ export const Countries = [
     dial_code: '+590',
     pattern: '',
     placeholder: '',
+    id: 87,
   },
   {
     name: 'Guam',
     flag: '🇬🇺',
     code: 'gu',
     dial_code: '+1671',
-    pattern: '',
-    placeholder: '',
+    pattern: /^(\+1\s*671|671)?[\s,\-]?\d{3}[\s,\-]?\d{4}$/,
+    placeholder: '123-4567',
+    id: 88,
   },
   {
     name: 'Guatemala',
     flag: '🇬🇹',
     code: 'gt',
     dial_code: '+502',
-    pattern: '',
-    placeholder: '',
+    pattern: /^(\+502|502)?\d{3}[\s,\-]?\d{4}[\s,\-]?\d{3}$/,
+    placeholder: '123-4567-890',
+    id: 89,
   },
   {
     name: 'Guernsey',
     flag: '🇬🇬',
     code: 'gg',
     dial_code: '+44',
-    pattern: '',
-    placeholder: '',
+    pattern: /^(\+44\s?(1481|\(0\))|0(1481|\(0\)))?\d{2,5}[\s,\-]?\d{3}$/,
+    placeholder: '54555 678',
+    id: 90,
   },
   {
     name: 'Guinea',
     flag: '🇬🇳',
     code: 'gn',
     dial_code: '+224',
-    pattern: '',
-    placeholder: '',
+    pattern: /^(\+224|00224|0)?[67][\s,\-]?\d{3}[\s,\-]?\d{2}[\s,\-]?\d{2}$/,
+    placeholder: '6-123-12-45',
+    id: 91,
   },
   {
     name: 'Guinea-Bissau',
     flag: '🇬🇼',
     code: 'gw',
     dial_code: '+245',
-    pattern: '',
-    placeholder: '',
+    pattern: /^(\+245|00245)?[23]\d{2}[\s,\-]?\d{2}[\s,\-]?\d{2}$/,
+    placeholder: '235-34-56',
+    id: 92,
   },
   {
     name: 'Guyana',
     flag: '🇬🇾',
     code: 'gy',
     dial_code: '+592',
-    pattern: '',
-    placeholder: '',
+    pattern: /^(\+592|00592|0)?\d{4}[\s,\-]?\d{5}$/,
+    placeholder: '2287-53456',
+    id: 93,
   },
   {
     name: 'Haiti',
     flag: '🇭🇹',
     code: 'ht',
     dial_code: '+509',
-    pattern: '',
-    placeholder: '',
+    pattern: /^\+?(509)?\d{3}[\s\-]?\d{4}$/,
+    placeholder: '134-5678',
+    id: 94,
   },
   {
     name: 'Heard Island and Mcdonald Islands',
     flag: '🇭🇲',
     code: 'hm',
     dial_code: '+672',
-    pattern: '',
-    placeholder: '',
+    pattern: /^\+?(672|00672)?\d{2}[\s,\-]?\d{4}[\s,\-]?\d{3}$/,
+    placeholder: '78-4888-888',
+    id: 95,
   },
   {
     name: 'Holy See (Vatican City State)',
     flag: '🇻🇦',
     code: 'va',
     dial_code: '+379',
-    pattern: '',
-    placeholder: '',
+    pattern: /^(\+379|00379)?\d{3}[\s,\-]?\d{2,10}$/,
+    placeholder: '125-123456',
+    id: 96,
   },
   {
     name: 'Honduras',
     flag: '🇭🇳',
     code: 'hn',
     dial_code: '+504',
-    pattern: '',
-    placeholder: '',
+    pattern: /^(\+504|00504)?(2|9)[\s,\-]?\d{2}[\s,\-]?\d{3}[\s,\-]?\d{2}$/,
+    placeholder: '2-12-345-67',
+    id: 97,
   },
   {
     name: 'Hong Kong',
     flag: '🇭🇰',
     code: 'hk',
     dial_code: '+852',
-    pattern: '',
-    placeholder: '',
+    pattern: /^(\+852|00852)?\d{2}[\s\-]?\d{4}[\s,\-]?\d{2}$/,
+    placeholder: '12-5345-67',
+    id: 98,
   },
   {
     name: 'Hungary',
     flag: '🇭🇺',
     code: 'hu',
     dial_code: '+36',
-    pattern: '',
-    placeholder: '',
+    pattern:
+      /^(\+36)?(1|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|40|44|46|47|62|63|70|74|76|77|78|79|90|91|92|93|94|95|96|97|99)[\s\-]?\d{4}[\s\-]?\d{3}$/,
+    placeholder: '1-2345-678',
+    id: 99,
   },
   {
     name: 'Iceland',
     flag: '🇮🇸',
     code: 'is',
     dial_code: '+354',
-    pattern: '^06\\d{8}$',
-    placeholder: '',
+    pattern:
+      /^(\+354|00354)?((4|5|6)[\s,\-]?[1-9]|7[1-9]\d)[\s,\-]?\d{3}[\s,\-]?\d{2}$/,
+    placeholder: '51-234-56',
+    id: 100,
   },
   {
     name: 'India',
     flag: '🇮🇳',
     code: 'in',
     dial_code: '+91',
-    pattern: '^\\d{10}$',
-    placeholder: '',
+    pattern: /^(\+91|0091)?(\d{3,5})[\s\-]?\d{7,8}$/,
+    placeholder: '12345-12345678',
+    id: 101,
   },
   {
     name: 'Indonesia',
     flag: '🇮🇩',
     code: 'id',
     dial_code: '+62',
-    pattern: '',
-    placeholder: '',
+    pattern: /^(\+62)?(\d{2,4})[\-\s]?(\d{6,8})$/,
+    placeholder: '2144-12345678',
+    id: 102,
   },
   {
     name: 'Iran, Islamic Republic of Persian Gulf',
     flag: '🇮🇷',
     code: 'ir',
     dial_code: '+98',
-    pattern: '^9\\d{8}$',
-    placeholder: '',
+    pattern: /^(\+98|0098)?0?[\s,\-]?(9\d{9}|[1-8]\d{8})$/,
+    placeholder: '0-9123456789',
+    id: 103,
   },
   {
     name: 'Iraq',
     flag: '🇮🇶',
     code: 'iq',
     dial_code: '+964',
-    pattern: '^7\\d{8}$',
+    pattern: /^(\+964|00964)?[\s,\-]?(\(0\))?[\s,\-]?[1-9]\d{7,8}$/,
     placeholder: '',
+    id: 104,
   },
   {
     name: 'Ireland',
@@ -838,6 +946,7 @@ export const Countries = [
     dial_code: '+353',
     pattern: '',
     placeholder: '',
+    id: 105,
   },
   {
     name: 'Isle of Man',
@@ -846,6 +955,7 @@ export const Countries = [
     dial_code: '+44',
     pattern: '',
     placeholder: '',
+    id: 106,
   },
   {
     name: 'Italy',
@@ -854,6 +964,7 @@ export const Countries = [
     dial_code: '+39',
     pattern: '',
     placeholder: '',
+    id: 107,
   },
   {
     name: 'Jamaica',
@@ -862,6 +973,7 @@ export const Countries = [
     dial_code: '+1876',
     pattern: '',
     placeholder: '',
+    id: 108,
   },
   {
     name: 'Japan',
@@ -870,6 +982,7 @@ export const Countries = [
     dial_code: '+81',
     pattern: '^\\d{10}$',
     placeholder: '',
+    id: 109,
   },
   {
     name: 'Jersey',
@@ -878,6 +991,7 @@ export const Countries = [
     dial_code: '+44',
     pattern: '',
     placeholder: '',
+    id: 110,
   },
   {
     name: 'Jordan',
@@ -886,6 +1000,7 @@ export const Countries = [
     dial_code: '+962',
     pattern: '^7\\d{8}$',
     placeholder: '',
+    id: 111,
   },
   {
     name: 'Kazakhstan',
@@ -894,6 +1009,7 @@ export const Countries = [
     dial_code: '+7',
     pattern: '',
     placeholder: '',
+    id: 112,
   },
   {
     name: 'Kenya',
@@ -902,6 +1018,7 @@ export const Countries = [
     dial_code: '+254',
     pattern: '',
     placeholder: '',
+    id: 113,
   },
   {
     name: 'Kiribati',
@@ -910,6 +1027,7 @@ export const Countries = [
     dial_code: '+686',
     pattern: '',
     placeholder: '',
+    id: 114,
   },
   {
     name: "Korea, Democratic People's Republic of Korea",
@@ -918,6 +1036,7 @@ export const Countries = [
     dial_code: '+850',
     pattern: '',
     placeholder: '',
+    id: 115,
   },
   {
     name: 'Korea, Republic of South Korea',
@@ -926,6 +1045,7 @@ export const Countries = [
     dial_code: '+82',
     pattern: '^\\d{9}$',
     placeholder: '',
+    id: 116,
   },
   {
     name: 'Kosovo',
@@ -934,6 +1054,7 @@ export const Countries = [
     dial_code: '+383',
     pattern: '',
     placeholder: '',
+    id: 117,
   },
   {
     name: 'Kuwait',
@@ -942,6 +1063,7 @@ export const Countries = [
     dial_code: '+965',
     pattern: '^5\\d{8}$',
     placeholder: '',
+    id: 118,
   },
   {
     name: 'Kyrgyzstan',
@@ -950,6 +1072,7 @@ export const Countries = [
     dial_code: '+996',
     pattern: '',
     placeholder: '',
+    id: 119,
   },
   {
     name: 'Laos',
@@ -958,6 +1081,7 @@ export const Countries = [
     dial_code: '+856',
     pattern: '^9\\d{8}$',
     placeholder: '',
+    id: 120,
   },
   {
     name: 'Latvia',
@@ -966,6 +1090,7 @@ export const Countries = [
     dial_code: '+371',
     pattern: '^5\\d{7}$',
     placeholder: '',
+    id: 121,
   },
   {
     name: 'Lebanon',
@@ -974,6 +1099,7 @@ export const Countries = [
     dial_code: '+961',
     pattern: '^5\\d{8}$',
     placeholder: '',
+    id: 122,
   },
   {
     name: 'Lesotho',
@@ -982,6 +1108,7 @@ export const Countries = [
     dial_code: '+266',
     pattern: '',
     placeholder: '',
+    id: 123,
   },
   {
     name: 'Liberia',
@@ -990,6 +1117,7 @@ export const Countries = [
     dial_code: '+231',
     pattern: '',
     placeholder: '',
+    id: 124,
   },
   {
     name: 'Libyan Arab Jamahiriya',
@@ -998,6 +1126,7 @@ export const Countries = [
     dial_code: '+218',
     pattern: '',
     placeholder: '',
+    id: 125,
   },
   {
     name: 'Liechtenstein',
@@ -1006,6 +1135,7 @@ export const Countries = [
     dial_code: '+423',
     pattern: '',
     placeholder: '',
+    id: 126,
   },
   {
     name: 'Lithuania',
@@ -1014,6 +1144,7 @@ export const Countries = [
     dial_code: '+370',
     pattern: '^6\\d{7}$',
     placeholder: '',
+    id: 127,
   },
   {
     name: 'Luxembourg',
@@ -1022,6 +1153,7 @@ export const Countries = [
     dial_code: '+352',
     pattern: '',
     placeholder: '',
+    id: 128,
   },
   {
     name: 'Macao',
@@ -1030,6 +1162,7 @@ export const Countries = [
     dial_code: '+853',
     pattern: '',
     placeholder: '',
+    id: 129,
   },
   {
     name: 'Macedonia',
@@ -1038,6 +1171,7 @@ export const Countries = [
     dial_code: '+389',
     pattern: '',
     placeholder: '',
+    id: 130,
   },
   {
     name: 'Madagascar',
@@ -1046,6 +1180,7 @@ export const Countries = [
     dial_code: '+261',
     pattern: '',
     placeholder: '',
+    id: 131,
   },
   {
     name: 'Malawi',
@@ -1054,6 +1189,7 @@ export const Countries = [
     dial_code: '+265',
     pattern: '',
     placeholder: '',
+    id: 132,
   },
   {
     name: 'Malaysia',
@@ -1062,6 +1198,7 @@ export const Countries = [
     dial_code: '+60',
     pattern: '',
     placeholder: '',
+    id: 133,
   },
   {
     name: 'Maldives',
@@ -1070,6 +1207,7 @@ export const Countries = [
     dial_code: '+960',
     pattern: '^9\\d{8}$',
     placeholder: '',
+    id: 134,
   },
   {
     name: 'Mali',
@@ -1078,6 +1216,7 @@ export const Countries = [
     dial_code: '+223',
     pattern: '',
     placeholder: '',
+    id: 135,
   },
   {
     name: 'Malta',
@@ -1086,6 +1225,7 @@ export const Countries = [
     dial_code: '+356',
     pattern: '^\\d{10}$',
     placeholder: '',
+    id: 136,
   },
   {
     name: 'Marshall Islands',
@@ -1094,6 +1234,7 @@ export const Countries = [
     dial_code: '+692',
     pattern: '',
     placeholder: '',
+    id: 137,
   },
   {
     name: 'Martinique',
@@ -1102,6 +1243,7 @@ export const Countries = [
     dial_code: '+596',
     pattern: '',
     placeholder: '',
+    id: 138,
   },
   {
     name: 'Mauritania',
@@ -1110,6 +1252,7 @@ export const Countries = [
     dial_code: '+222',
     pattern: '',
     placeholder: '',
+    id: 139,
   },
   {
     name: 'Mauritius',
@@ -1118,6 +1261,7 @@ export const Countries = [
     dial_code: '+230',
     pattern: '',
     placeholder: '',
+    id: 140,
   },
   {
     name: 'Mayotte',
@@ -1126,6 +1270,7 @@ export const Countries = [
     dial_code: '+262',
     pattern: '',
     placeholder: '',
+    id: 141,
   },
   {
     name: 'Mexico',
@@ -1134,6 +1279,7 @@ export const Countries = [
     dial_code: '+52',
     pattern: '',
     placeholder: '',
+    id: 142,
   },
   {
     name: 'Micronesia, Federated States of Micronesia',
@@ -1142,6 +1288,7 @@ export const Countries = [
     dial_code: '+691',
     pattern: '',
     placeholder: '',
+    id: 143,
   },
   {
     name: 'Moldova',
@@ -1150,6 +1297,7 @@ export const Countries = [
     dial_code: '+373',
     pattern: '',
     placeholder: '',
+    id: 144,
   },
   {
     name: 'Monaco',
@@ -1158,6 +1306,7 @@ export const Countries = [
     dial_code: '+377',
     pattern: '',
     placeholder: '',
+    id: 145,
   },
   {
     name: 'Mongolia',
@@ -1166,6 +1315,7 @@ export const Countries = [
     dial_code: '+976',
     pattern: '',
     placeholder: '',
+    id: 146,
   },
   {
     name: 'Montenegro',
@@ -1174,6 +1324,7 @@ export const Countries = [
     dial_code: '+382',
     pattern: '',
     placeholder: '',
+    id: 147,
   },
   {
     name: 'Montserrat',
@@ -1182,6 +1333,7 @@ export const Countries = [
     dial_code: '+1664',
     pattern: '',
     placeholder: '',
+    id: 148,
   },
   {
     name: 'Morocco',
@@ -1190,6 +1342,7 @@ export const Countries = [
     dial_code: '+212',
     pattern: '',
     placeholder: '',
+    id: 149,
   },
   {
     name: 'Mozambique',
@@ -1198,6 +1351,7 @@ export const Countries = [
     dial_code: '+258',
     pattern: '',
     placeholder: '',
+    id: 150,
   },
   {
     name: 'Myanmar',
@@ -1206,6 +1360,7 @@ export const Countries = [
     dial_code: '+95',
     pattern: '^9\\d{8}$',
     placeholder: '',
+    id: 151,
   },
   {
     name: 'Namibia',
@@ -1214,6 +1369,7 @@ export const Countries = [
     dial_code: '+264',
     pattern: '',
     placeholder: '',
+    id: 152,
   },
   {
     name: 'Nauru',
@@ -1222,6 +1378,7 @@ export const Countries = [
     dial_code: '+674',
     pattern: '',
     placeholder: '',
+    id: 153,
   },
   {
     name: 'Nepal',
@@ -1230,6 +1387,7 @@ export const Countries = [
     dial_code: '+977',
     pattern: '^9\\d{8}$',
     placeholder: '',
+    id: 154,
   },
   {
     name: 'Netherlands',
@@ -1238,6 +1396,7 @@ export const Countries = [
     dial_code: '+31',
     pattern: '^\\d{9}$',
     placeholder: '',
+    id: 155,
   },
   {
     name: 'Netherlands Antilles',
@@ -1246,6 +1405,7 @@ export const Countries = [
     dial_code: '+599',
     pattern: '',
     placeholder: '',
+    id: 156,
   },
   {
     name: 'New Caledonia',
@@ -1254,6 +1414,7 @@ export const Countries = [
     dial_code: '+687',
     pattern: '',
     placeholder: '',
+    id: 157,
   },
   {
     name: 'New Zealand',
@@ -1262,6 +1423,7 @@ export const Countries = [
     dial_code: '+64',
     pattern: '',
     placeholder: '',
+    id: 158,
   },
   {
     name: 'Nicaragua',
@@ -1270,6 +1432,7 @@ export const Countries = [
     dial_code: '+505',
     pattern: '',
     placeholder: '',
+    id: 159,
   },
   {
     name: 'Niger',
@@ -1278,6 +1441,7 @@ export const Countries = [
     dial_code: '+227',
     pattern: '',
     placeholder: '',
+    id: 160,
   },
   {
     name: 'Nigeria',
@@ -1286,6 +1450,7 @@ export const Countries = [
     dial_code: '+234',
     pattern: '',
     placeholder: '',
+    id: 161,
   },
   {
     name: 'Niue',
@@ -1294,6 +1459,7 @@ export const Countries = [
     dial_code: '+683',
     pattern: '',
     placeholder: '',
+    id: 162,
   },
   {
     name: 'Norfolk Island',
@@ -1302,6 +1468,7 @@ export const Countries = [
     dial_code: '+672',
     pattern: '',
     placeholder: '',
+    id: 163,
   },
   {
     name: 'Northern Mariana Islands',
@@ -1310,6 +1477,7 @@ export const Countries = [
     dial_code: '+1670',
     pattern: '',
     placeholder: '',
+    id: 164,
   },
   {
     name: 'Norway',
@@ -1318,6 +1486,7 @@ export const Countries = [
     dial_code: '+47',
     pattern: '^07\\d{8}$',
     placeholder: '',
+    id: 165,
   },
   {
     name: 'Oman',
@@ -1326,6 +1495,7 @@ export const Countries = [
     dial_code: '+968',
     pattern: '^5\\d{8}$',
     placeholder: '',
+    id: 166,
   },
   {
     name: 'Pakistan',
@@ -1334,6 +1504,7 @@ export const Countries = [
     dial_code: '+92',
     pattern: '^5\\d{8}$',
     placeholder: '',
+    id: 167,
   },
   {
     name: 'Palau',
@@ -1342,6 +1513,7 @@ export const Countries = [
     dial_code: '+680',
     pattern: '',
     placeholder: '',
+    id: 168,
   },
   {
     name: 'Palestinian Territory, Occupied',
@@ -1350,6 +1522,7 @@ export const Countries = [
     dial_code: '+970',
     pattern: '^7\\d{8}$',
     placeholder: '',
+    id: 169,
   },
   {
     name: 'Panama',
@@ -1358,6 +1531,7 @@ export const Countries = [
     dial_code: '+507',
     pattern: '',
     placeholder: '',
+    id: 170,
   },
   {
     name: 'Papua New Guinea',
@@ -1366,6 +1540,7 @@ export const Countries = [
     dial_code: '+675',
     pattern: '',
     placeholder: '',
+    id: 171,
   },
   {
     name: 'Paraguay',
@@ -1374,6 +1549,7 @@ export const Countries = [
     dial_code: '+595',
     pattern: '',
     placeholder: '',
+    id: 172,
   },
   {
     name: 'Peru',
@@ -1382,6 +1558,7 @@ export const Countries = [
     dial_code: '+51',
     pattern: '',
     placeholder: '',
+    id: 173,
   },
   {
     name: 'Philippines',
@@ -1390,6 +1567,7 @@ export const Countries = [
     dial_code: '+63',
     pattern: '',
     placeholder: '',
+    id: 174,
   },
   {
     name: 'Pitcairn',
@@ -1398,6 +1576,7 @@ export const Countries = [
     dial_code: '+64',
     pattern: '',
     placeholder: '',
+    id: 175,
   },
   {
     name: 'Poland',
@@ -1406,6 +1585,7 @@ export const Countries = [
     dial_code: '+48',
     pattern: '',
     placeholder: '',
+    id: 176,
   },
   {
     name: 'Portugal',
@@ -1414,6 +1594,7 @@ export const Countries = [
     dial_code: '+351',
     pattern: '',
     placeholder: '',
+    id: 177,
   },
   {
     name: 'Puerto Rico',
@@ -1422,6 +1603,7 @@ export const Countries = [
     dial_code: '+1939',
     pattern: '',
     placeholder: '',
+    id: 178,
   },
   {
     name: 'Qatar',
@@ -1430,6 +1612,7 @@ export const Countries = [
     dial_code: '+974',
     pattern: '^5\\d{8}$',
     placeholder: '',
+    id: 179,
   },
   {
     name: 'Romania',
@@ -1438,6 +1621,7 @@ export const Countries = [
     dial_code: '+40',
     pattern: '',
     placeholder: '',
+    id: 180,
   },
   {
     name: 'Russia',
@@ -1446,6 +1630,7 @@ export const Countries = [
     dial_code: '+7',
     pattern: '',
     placeholder: '',
+    id: 181,
   },
   {
     name: 'Rwanda',
@@ -1454,6 +1639,7 @@ export const Countries = [
     dial_code: '+250',
     pattern: '',
     placeholder: '',
+    id: 182,
   },
   {
     name: 'Reunion',
@@ -1462,6 +1648,7 @@ export const Countries = [
     dial_code: '+262',
     pattern: '',
     placeholder: '',
+    id: 183,
   },
   {
     name: 'Saint Barthelemy',
@@ -1470,6 +1657,7 @@ export const Countries = [
     dial_code: '+590',
     pattern: '',
     placeholder: '',
+    id: 184,
   },
   {
     name: 'Saint Helena, Ascension and Tristan Da Cunha',
@@ -1478,6 +1666,7 @@ export const Countries = [
     dial_code: '+290',
     pattern: '',
     placeholder: '',
+    id: 185,
   },
   {
     name: 'Saint Kitts and Nevis',
@@ -1486,6 +1675,7 @@ export const Countries = [
     dial_code: '+1869',
     pattern: '',
     placeholder: '',
+    id: 186,
   },
   {
     name: 'Saint Lucia',
@@ -1494,6 +1684,7 @@ export const Countries = [
     dial_code: '+1758',
     pattern: '',
     placeholder: '',
+    id: 187,
   },
   {
     name: 'Saint Martin',
@@ -1502,6 +1693,7 @@ export const Countries = [
     dial_code: '+590',
     pattern: '',
     placeholder: '',
+    id: 188,
   },
   {
     name: 'Saint Pierre and Miquelon',
@@ -1510,6 +1702,7 @@ export const Countries = [
     dial_code: '+508',
     pattern: '',
     placeholder: '',
+    id: 189,
   },
   {
     name: 'Saint Vincent and the Grenadines',
@@ -1518,6 +1711,7 @@ export const Countries = [
     dial_code: '+1784',
     pattern: '',
     placeholder: '',
+    id: 190,
   },
   {
     name: 'Samoa',
@@ -1526,6 +1720,7 @@ export const Countries = [
     dial_code: '+685',
     pattern: '',
     placeholder: '',
+    id: 191,
   },
   {
     name: 'San Marino',
@@ -1534,6 +1729,7 @@ export const Countries = [
     dial_code: '+378',
     pattern: '',
     placeholder: '',
+    id: 192,
   },
   {
     name: 'Sao Tome and Principe',
@@ -1542,6 +1738,7 @@ export const Countries = [
     dial_code: '+239',
     pattern: '',
     placeholder: '',
+    id: 193,
   },
   {
     name: 'Saudi Arabia',
@@ -1550,6 +1747,7 @@ export const Countries = [
     dial_code: '+966',
     pattern: '^\\d{9}$',
     placeholder: '',
+    id: 194,
   },
   {
     name: 'Senegal',
@@ -1558,6 +1756,7 @@ export const Countries = [
     dial_code: '+221',
     pattern: '',
     placeholder: '',
+    id: 195,
   },
   {
     name: 'Serbia',
@@ -1566,6 +1765,7 @@ export const Countries = [
     dial_code: '+381',
     pattern: '',
     placeholder: '',
+    id: 196,
   },
   {
     name: 'Seychelles',
@@ -1574,6 +1774,7 @@ export const Countries = [
     dial_code: '+248',
     pattern: '',
     placeholder: '',
+    id: 197,
   },
   {
     name: 'Sierra Leone',
@@ -1582,6 +1783,7 @@ export const Countries = [
     dial_code: '+232',
     pattern: '',
     placeholder: '',
+    id: 198,
   },
   {
     name: 'Singapore',
@@ -1590,6 +1792,7 @@ export const Countries = [
     dial_code: '+65',
     pattern: '',
     placeholder: '',
+    id: 199,
   },
   {
     name: 'Slovakia',
@@ -1598,6 +1801,7 @@ export const Countries = [
     dial_code: '+421',
     pattern: '',
     placeholder: '',
+    id: 200,
   },
   {
     name: 'Slovenia',
@@ -1606,6 +1810,7 @@ export const Countries = [
     dial_code: '+386',
     pattern: '',
     placeholder: '',
+    id: 201,
   },
   {
     name: 'Solomon Islands',
@@ -1614,6 +1819,7 @@ export const Countries = [
     dial_code: '+677',
     pattern: '',
     placeholder: '',
+    id: 202,
   },
   {
     name: 'Somalia',
@@ -1622,6 +1828,7 @@ export const Countries = [
     dial_code: '+252',
     pattern: '',
     placeholder: '',
+    id: 203,
   },
   {
     name: 'South Africa',
@@ -1630,6 +1837,7 @@ export const Countries = [
     dial_code: '+27',
     pattern: '',
     placeholder: '',
+    id: 204,
   },
   {
     name: 'South Sudan',
@@ -1638,6 +1846,7 @@ export const Countries = [
     dial_code: '+211',
     pattern: '',
     placeholder: '',
+    id: 205,
   },
   {
     name: 'South Georgia and the South Sandwich Islands',
@@ -1646,6 +1855,7 @@ export const Countries = [
     dial_code: '+500',
     pattern: '',
     placeholder: '',
+    id: 206,
   },
   {
     name: 'Spain',
@@ -1654,6 +1864,7 @@ export const Countries = [
     dial_code: '+34',
     pattern: '^\\d{9}$',
     placeholder: '',
+    id: 207,
   },
   {
     name: 'Sri Lanka',
@@ -1662,6 +1873,7 @@ export const Countries = [
     dial_code: '+94',
     pattern: '^9\\d{8}$',
     placeholder: '',
+    id: 208,
   },
   {
     name: 'Sudan',
@@ -1670,6 +1882,7 @@ export const Countries = [
     dial_code: '+249',
     pattern: '',
     placeholder: '',
+    id: 209,
   },
   {
     name: 'Suriname',
@@ -1678,6 +1891,7 @@ export const Countries = [
     dial_code: '+597',
     pattern: '',
     placeholder: '',
+    id: 210,
   },
   {
     name: 'Svalbard and Jan Mayen',
@@ -1686,6 +1900,7 @@ export const Countries = [
     dial_code: '+47',
     pattern: '',
     placeholder: '',
+    id: 211,
   },
   {
     name: 'Swaziland',
@@ -1694,6 +1909,7 @@ export const Countries = [
     dial_code: '+268',
     pattern: '',
     placeholder: '',
+    id: 212,
   },
   {
     name: 'Sweden',
@@ -1702,6 +1918,7 @@ export const Countries = [
     dial_code: '+46',
     pattern: '^6\\d{8}$',
     placeholder: '',
+    id: 213,
   },
   {
     name: 'Switzerland',
@@ -1710,6 +1927,7 @@ export const Countries = [
     dial_code: '+41',
     pattern: '',
     placeholder: '',
+    id: 214,
   },
   {
     name: 'Syrian Arab Republic',
@@ -1718,6 +1936,7 @@ export const Countries = [
     dial_code: '+963',
     pattern: '^5\\d{8}$',
     placeholder: '',
+    id: 215,
   },
   {
     name: 'Taiwan',
@@ -1726,6 +1945,7 @@ export const Countries = [
     dial_code: '+886',
     pattern: '',
     placeholder: '',
+    id: 216,
   },
   {
     name: 'Tajikistan',
@@ -1734,6 +1954,7 @@ export const Countries = [
     dial_code: '+992',
     pattern: '',
     placeholder: '',
+    id: 217,
   },
   {
     name: 'Tanzania, United Republic of Tanzania',
@@ -1742,6 +1963,7 @@ export const Countries = [
     dial_code: '+255',
     pattern: '',
     placeholder: '',
+    id: 218,
   },
   {
     name: 'Thailand',
@@ -1750,6 +1972,7 @@ export const Countries = [
     dial_code: '+66',
     pattern: '',
     placeholder: '',
+    id: 219,
   },
   {
     name: 'Timor-Leste',
@@ -1758,6 +1981,7 @@ export const Countries = [
     dial_code: '+670',
     pattern: '',
     placeholder: '',
+    id: 220,
   },
   {
     name: 'Togo',
@@ -1766,6 +1990,7 @@ export const Countries = [
     dial_code: '+228',
     pattern: '',
     placeholder: '',
+    id: 221,
   },
   {
     name: 'Tokelau',
@@ -1774,6 +1999,7 @@ export const Countries = [
     dial_code: '+690',
     pattern: '',
     placeholder: '',
+    id: 222,
   },
   {
     name: 'Tonga',
@@ -1782,6 +2008,7 @@ export const Countries = [
     dial_code: '+676',
     pattern: '',
     placeholder: '',
+    id: 223,
   },
   {
     name: 'Trinidad and Tobago',
@@ -1790,6 +2017,7 @@ export const Countries = [
     dial_code: '+1868',
     pattern: '',
     placeholder: '',
+    id: 224,
   },
   {
     name: 'Tunisia',
@@ -1798,6 +2026,7 @@ export const Countries = [
     dial_code: '+216',
     pattern: '',
     placeholder: '',
+    id: 225,
   },
   {
     name: 'Turkey',
@@ -1806,6 +2035,7 @@ export const Countries = [
     dial_code: '+90',
     pattern: '^0\\d{9}$',
     placeholder: '',
+    id: 226,
   },
   {
     name: 'Turkmenistan',
@@ -1814,6 +2044,7 @@ export const Countries = [
     dial_code: '+993',
     pattern: '',
     placeholder: '',
+    id: 227,
   },
   {
     name: 'Turks and Caicos Islands',
@@ -1822,6 +2053,7 @@ export const Countries = [
     dial_code: '+1649',
     pattern: '',
     placeholder: '',
+    id: 228,
   },
   {
     name: 'Tuvalu',
@@ -1830,6 +2062,7 @@ export const Countries = [
     dial_code: '+688',
     pattern: '',
     placeholder: '',
+    id: 229,
   },
   {
     name: 'Uganda',
@@ -1838,6 +2071,7 @@ export const Countries = [
     dial_code: '+256',
     pattern: '',
     placeholder: '',
+    id: 230,
   },
   {
     name: 'Ukraine',
@@ -1846,6 +2080,7 @@ export const Countries = [
     dial_code: '+380',
     pattern: '',
     placeholder: '',
+    id: 231,
   },
   {
     name: 'United Arab Emirates',
@@ -1854,6 +2089,7 @@ export const Countries = [
     dial_code: '+971',
     pattern: '^5\\d{8}$',
     placeholder: '',
+    id: 232,
   },
   {
     name: 'United Kingdom',
@@ -1862,6 +2098,7 @@ export const Countries = [
     dial_code: '+44',
     pattern: '^\\d{10}$',
     placeholder: '',
+    id: 233,
   },
   {
     name: 'United States',
@@ -1870,6 +2107,7 @@ export const Countries = [
     dial_code: '+1',
     pattern: '^\\d{10}$',
     placeholder: '',
+    id: 234,
   },
   {
     name: 'Uruguay',
@@ -1878,6 +2116,7 @@ export const Countries = [
     dial_code: '+598',
     pattern: '',
     placeholder: '',
+    id: 235,
   },
   {
     name: 'Uzbekistan',
@@ -1886,6 +2125,7 @@ export const Countries = [
     dial_code: '+998',
     pattern: '',
     placeholder: '',
+    id: 236,
   },
   {
     name: 'Vanuatu',
@@ -1894,6 +2134,7 @@ export const Countries = [
     dial_code: '+678',
     pattern: '',
     placeholder: '',
+    id: 237,
   },
   {
     name: 'Venezuela, Bolivarian Republic of Venezuela',
@@ -1902,6 +2143,7 @@ export const Countries = [
     dial_code: '+58',
     pattern: '',
     placeholder: '',
+    id: 238,
   },
   {
     name: 'Vietnam',
@@ -1910,6 +2152,7 @@ export const Countries = [
     dial_code: '+84',
     pattern: '',
     placeholder: '',
+    id: 239,
   },
   {
     name: 'Virgin Islands, British',
@@ -1918,6 +2161,7 @@ export const Countries = [
     dial_code: '+1284',
     pattern: '',
     placeholder: '',
+    id: 240,
   },
   {
     name: 'Virgin Islands, U.S.',
@@ -1926,6 +2170,7 @@ export const Countries = [
     dial_code: '+1340',
     pattern: '',
     placeholder: '',
+    id: 241,
   },
   {
     name: 'Wallis and Futuna',
@@ -1934,6 +2179,7 @@ export const Countries = [
     dial_code: '+681',
     pattern: '',
     placeholder: '',
+    id: 242,
   },
   {
     name: 'Yemen',
@@ -1942,6 +2188,7 @@ export const Countries = [
     dial_code: '+967',
     pattern: '^7\\d{8}$',
     placeholder: '',
+    id: 243,
   },
   {
     name: 'Zambia',
@@ -1950,6 +2197,7 @@ export const Countries = [
     dial_code: '+260',
     pattern: '',
     placeholder: '',
+    id: 244,
   },
   {
     name: 'Zimbabwe',
@@ -1958,5 +2206,6 @@ export const Countries = [
     dial_code: '+263',
     pattern: '',
     placeholder: '',
+    id: 245,
   },
 ];

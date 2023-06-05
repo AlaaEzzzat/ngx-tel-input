@@ -17,8 +17,9 @@ export class AppComponent implements OnInit {
     flag: '🇪🇬',
     code: 'eg',
     dial_code: '+20',
-    pattern: '^1\\d{9}$',
+    pattern: '(^1\\d{9}$|^d{3} \\d{4} \\d{3}$ |)',
     placeholder: '(###)###-###',
+    id: 64,
   };
   phoneNumber!: string;
   activeDialCode: string;
@@ -35,7 +36,18 @@ export class AppComponent implements OnInit {
     console.log('Slected country: ' + JSON.stringify(this.selectedCountry));
     console.log('Active Code: ' + this.activeDialCode);
     console.log('Phone Number: ' + this.phoneNumber);
-    console.log('Result: ' + this.activeDialCode + this.phoneNumber);
+    console.log(
+      'Phone Number without Spaces & dashs  ' +
+        this.phoneNumber.replaceAll(' ', '').replaceAll('-', '')
+    );
+    console.log(
+      'Result: ' +
+        this.activeDialCode +
+        this.phoneNumber
+          .replaceAll(' ', '')
+          .replaceAll('-', '')
+          .replace(this.activeDialCode, '')
+    );
   }
   chageActiveDialCode(ev: any) {
     this.activeDialCode = ev.value.dial_code;
