@@ -16,12 +16,12 @@ export class CICPhonenumberComponent implements OnInit {
   @Input() styleClass: string = 'tel-dropdown';
   @Input() pereferedCountry: CountryCode = CountryCode.Egypt;
 
-  _selectedCountry!: Country;
   _phoneNumber!: string;
   _activeDialCode!: string;
   get _countries() {
     return Countries;
   }
+  _selectedCountry: Country = this._countries[63];
   _form!: FormGroup;
 
   constructor(private __formDir: FormGroupDirective) {}
@@ -37,26 +37,27 @@ export class CICPhonenumberComponent implements OnInit {
     }
   }
 
-  print() {
-    console.log('Slected country: ' + JSON.stringify(this._selectedCountry));
-    console.log('Active Code: ' + this._activeDialCode);
-    console.log('Phone Number: ' + this._phoneNumber);
-    console.log(
-      'Phone Number without Spaces & dashs  ' +
-        this._phoneNumber.replaceAll(' ', '').replaceAll('-', '')
-    );
-    console.log(
-      'Result: ' +
-        this._activeDialCode +
-        this._phoneNumber
-          .replaceAll(' ', '')
-          .replaceAll('-', '')
-          .replace(this._activeDialCode, '')
-    );
-  }
+  // print() {
+  //   console.log('Slected country: ' + JSON.stringify(this._selectedCountry));
+  //   console.log('Active Code: ' + this._activeDialCode);
+  //   console.log('Phone Number: ' + this._phoneNumber);
+  //   console.log(
+  //     'Phone Number without Spaces & dashs  ' +
+  //       this._phoneNumber.replaceAll(' ', '').replaceAll('-', '')
+  //   );
+  //   console.log(
+  //     'Result: ' +
+  //       this._activeDialCode +
+  //       this._phoneNumber
+  //         .replaceAll(' ', '')
+  //         .replaceAll('-', '')
+  //         .replace(this._activeDialCode, '')
+  //   );
+  // }
 
   chageActiveDialCode(ev: any) {
     this._activeDialCode = ev.value.dial_code;
+    this._selectedCountry = ev.value;
   }
 
   getActiveCountry(): void {

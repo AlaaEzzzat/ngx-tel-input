@@ -1,6 +1,7 @@
 import { CountryCode } from './country-code';
 
 export interface Country {
+  id: number;
   name: string;
   flag: string;
   code: CountryCode;

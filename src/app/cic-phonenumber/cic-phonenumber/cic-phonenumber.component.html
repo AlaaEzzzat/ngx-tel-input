@@ -1,50 +1,45 @@
-<ng-container [formGroup]="_form">
-  <section class="tel-container">
-    <div class="row">
-      <div class="col-4">
-        <p-dropdown
-          [options]="_countries"
-          [(ngModel)]="_selectedCountry"
-          (onChange)="chageActiveDialCode($event)"
-          [optionLabel]="optionLabel"
-          [name]="name"
-          [placeholder]="placeholder"
-          [filter]="true"
-          filterBy="name"
-          [styleClass]="'tel-dropdown ' + styleClass"
-        >
-          <ng-template pTemplate="selectedItem">
-            <div
-              class="d-flex align-items-center gap-2"
-              *ngIf="_selectedCountry"
-            >
-              <div>
-                <span class="fi fi-{{ _selectedCountry.code }}"></span>&nbsp;
-                {{ _selectedCountry.dial_code }}
-              </div>
+<section class="tel-container">
+  <div class="row">
+    <div class="col-4">
+      <p-dropdown
+        [options]="_countries"
+        [(ngModel)]="_selectedCountry"
+        (onChange)="chageActiveDialCode($event)"
+        [optionLabel]="optionLabel"
+        [name]="name"
+        [placeholder]="placeholder"
+        [filter]="true"
+        filterBy="name"
+        [styleClass]="'tel-dropdown ' + styleClass"
+      >
+        <ng-template pTemplate="selectedItem">
+          <div class="d-flex align-items-center gap-2" *ngIf="_selectedCountry">
+            <div>
+              <span class="fi fi-{{ _selectedCountry.code }}"></span>&nbsp;
+              {{ _selectedCountry.dial_code }}
             </div>
-          </ng-template>
-          <ng-template let-country pTemplate="item">
-            <div class="d-flex align-items-center gap-2">
-              <div>
-                <span class="fi fi-{{ country.code }}"></span> &nbsp;
-                {{ country.name }} &nbsp; {{ country.dial_code }}
-              </div>
+          </div>
+        </ng-template>
+        <ng-template let-country pTemplate="item">
+          <div class="d-flex align-items-center gap-2">
+            <div>
+              <span class="fi fi-{{ country.code }}"></span> &nbsp;
+              {{ country.name }} &nbsp; {{ country.dial_code }}
             </div>
-          </ng-template>
-        </p-dropdown>
-      </div>
-      <div class="col-8">
-        <input
-          [pattern]="_selectedCountry.pattern"
-          class="tel-input"
-          pInputText
-          pKeyFilter="int"
-          [placeholder]="_selectedCountry.placeholder"
-          [(ngModel)]="_phoneNumber"
-          name="phoneNumber"
-        />
-      </div>
+          </div>
+        </ng-template>
+      </p-dropdown>
     </div>
-  </section>
-</ng-container>
+    <div class="col-8">
+      <input
+        [pattern]="_selectedCountry.pattern"
+        class="tel-input"
+        pInputText
+        pKeyFilter="int"
+        [placeholder]="_selectedCountry.placeholder"
+        [(ngModel)]="_phoneNumber"
+        name="phoneNumber"
+      />
+    </div>
+  </div>
+</section>
