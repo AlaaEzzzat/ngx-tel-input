@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
     flag: '🇪🇬',
     code: 'eg',
     dial_code: '+20',
-    pattern: '(^1\\d{9}$|^\\d{3} \\d{4} \\d{3}$)',
+    pattern: '(^1\d{9}$|^\d{3} \d{4} \d{3}$)',
     placeholder: '(###)###-###',
   };
   phoneNumber!: string;
