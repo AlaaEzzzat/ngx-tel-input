@@ -6,8 +6,8 @@
   <div
     *ngIf="
       myForm.controls['phoneNumber']?.invalid &&
-      (myForm.controls['phoneNumber'].dirty ||
-        myForm.controls['phoneNumber'].touched)
+      myForm.controls['phoneNumber'].dirty &&
+      myForm.controls['phoneNumber'].touched
     "
     class="text-danger"
   >
