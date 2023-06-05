@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -8,10 +8,17 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 export class AppComponent {
   myForm: FormGroup = this.__fb.group({
-    phoneNumber: [],
+    phoneNumber: [, [Validators.required]],
   });
 
   constructor(private __fb: FormBuilder) {}
 
-  print(): void {}
+  print(): void {
+    this.myForm.markAllAsTouched();
+    console.log(
+      this.myForm.value,
+      this.myForm.controls['phoneNumber'].errors,
+      this.myForm.status
+    );
+  }
 }

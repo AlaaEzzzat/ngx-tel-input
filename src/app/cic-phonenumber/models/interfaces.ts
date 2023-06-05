@@ -1,3 +1,4 @@
+import { ValidatorFn } from '@angular/forms';
 import { CountryCode } from './country-code';
 
 export interface Country {
@@ -7,5 +8,6 @@ export interface Country {
   dial_code: string;
   pattern: RegExp;
   placeholder: string;
-  id:number
+  id: number;
+  validator?: ValidatorFn;
 }
